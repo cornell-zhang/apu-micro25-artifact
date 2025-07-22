@@ -1,26 +1,25 @@
-
+DB0: Task address 0x5034fc
+ARCK[0]: 
+Running task 0x5034fc (0x2f41020, 0x0)
 ARCT[0]: 
-
-ARCT[0]: Running binary matmul, opt2!
-
-TIME STAMP: 06/21/25 05:00:27.213462770 UTC
-
-ARCT[0]: ***            total - hits:1       seu:14671666     crun:108118466    iall:67398259      icm:329      dcm:266103       microsec@500Mhz:216236
-
-ARCT[0]: ***           ld_lhs - hits:1024    seu:2662         crun:1321707      iall:613932        icm:38       dcm:950          microsec@500Mhz:2643
-
-TIME STAMP: 06/21/25 05:00:27.213650842 UTC
-
-ARCT[0]: ***           ld_rhs - hits:1       seu:178          crun:74203        iall:16415         icm:125      dcm:3            microsec@500Mhz:148
-
-ARCT[0]: ***            vr_op - hits:2048    seu:1315598      crun:4797597      iall:2527251       icm:103      dcm:1036         microsec@500Mhz:9595
-
-ARCT[0]: ***               st - hits:2048    seu:11534336     crun:95245584     iall:61503498      icm:53       dcm:262825       microsec@500Mhz:190491
-
-TIME STAMP: 06/21/25 05:00:27.213836504 UTC
-
-ARCK[0]: After task: 0x5034fc (0x2f41020, 0x0) ret = 0
-
-TIME STAMP: 06/21/25 05:00:27.215270428 UTC
-
-ARCK[0]: Send TASK_COMPLETION_DB to ARM
+ARCT[0]: 
+Running binary matmul, opt2!
+TIME STAMP: 07/22/25 17:55:03.905461957 UTC
+ARCT[0]: 
+***            total - hits:1       seu:14671666     crun:108181233    iall:67397601      icm:357      dcm:266169       microsec@500Mhz:216362
+TIME STAMP: 07/22/25 17:55:03.905649929 UTC
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:2666         crun:1325353      iall:613260        icm:51       dcm:950          microsec@500Mhz:2650
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:74670        iall:16779         icm:123      dcm:3            microsec@500Mhz:149
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1317514      crun:4824135      iall:2527251       icm:113      dcm:1036         microsec@500Mhz:9648
+TIME STAMP: 07/22/25 17:55:03.905835431 UTC
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:95273455     iall:61503498      icm:53       dcm:262891       microsec@500Mhz:190546
+ARCK[0]: 
+After task: 0x5034fc (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 17:55:03.907271235 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+slot0@localhost:/ > 

@@ -1,0 +1,105 @@
+/*
+ * DO NOT EDIT: auto generated from memory.x with the addition of the "template_" prefix to CODE & DATA addresses
+ */
+
+
+MEMORY { /* ORIGIN+LENGTH values are replicated at module_location.h */
+    CODE : ORIGIN = 0x00501000, LENGTH = 0x002FF000 /* Note: board_ctx shared_mem_base_on_apuc is 0x00500000; values also replicated within include/module_location.h */
+    DATA : ORIGIN = 0x00800000, LENGTH = 0x00700000
+    }
+
+REGION_ALIAS("text",        CODE)
+REGION_ALIAS("valufrag",    CODE)
+
+REGION_ALIAS("data",        DATA)
+REGION_ALIAS("sdata",       DATA)
+REGION_ALIAS("rodata",      DATA)
+REGION_ALIAS("bss",         DATA)
+REGION_ALIAS("sbss",        DATA)
+REGION_ALIAS("startup",     DATA)
+REGION_ALIAS("ivt",         DATA)
+REGION_ALIAS("gsi_debug",   DATA)
+
+SECTIONS {
+   /* CODE sections */
+   .fini : {*(.fini*)} >CODE
+   .text : {*(.text)} >CODE
+   valufrag : {*(valufrag)} >CODE
+   TEXT : {*(TEXT)} >CODE
+   .init : {*(.init*)} >CODE
+   .vectors : {*(.vectors)} >CODE
+
+  .jlitab   : /* copy from /opt/gsi/ubuntu/jammy/x86_64/GNU/arc_gnu_2021.09-release_elf32_le_linux_no_sdata/arc-snps-elf/arc-snps-elf/lib/ldscripts/arcv2elfx.x */
+  {
+    __JLI_TABLE__ = .;
+     jlitab*.o:(.jlitab*) *(.jlitab*)
+  } > CODE
+
+   PROVIDE (end = (0x003fffff)); /* NOTE: the apuc last unaddresable L4 addr - s.a. GSI_APUC_MEM_LAST_UNADDR, GSI_APUC_MEM_BL_ADDR */
+
+   /* relocation (i.e. pic) data must be the at the beginning of the DATA segment */
+   .pictable : {*(.pictable*)} >DATA
+   .got      : {*(.got .got.plt )} >DATA
+
+   /* More DATA sections */
+   .ivt : {*(.ivt*)} > DATA
+
+   .ctors : {*(.ctors)} > DATA
+   .dtors : {*(.dtors)} > DATA
+
+   /* DATA sections */
+   GSI_task_ep_names : {*(GSI_task_ep_names)} >DATA
+   .rodata : {*(.rodata)} >DATA
+   valufrag_offset : {*(valufrag_offset)} >DATA
+   valufrag_offset_addr : {*(valufrag_offset_addr)} >DATA
+   valufrag_ins : {*(valufrag_ins)} >DATA
+   . = ALIGN(4);
+   __SDATA_BEGIN__ = .;
+   .sdata : {*(.sdata*)} >DATA
+   eh_frame.zzzzzzz : {*(.eh_frame.zzzzzzz)} >DATA
+
+  .sbss           : /* copy from /opt/gsi/ubuntu/jammy/x86_64/GNU/arc_gnu_2021.09-release_elf32_le_linux_no_sdata/arc-snps-elf/arc-snps-elf/lib/ldscripts/arcv2elfx.x */
+  {
+    PROVIDE (__sbss_start = .);
+    PROVIDE (___sbss_start = .);
+    *(.dynsbss)
+    *(.sbss .sbss.* .gnu.linkonce.sb.*)
+    *(.scommon)
+    PROVIDE (__sbss_end = .);
+    PROVIDE (___sbss_end = .);
+  }  > sdata
+
+   .data : {*(.data)} >DATA
+   DATA : {*(DATA)} >DATA
+   . = ALIGN(4);
+   __start_gsi_debug = .;
+   gsi_debug : {*(gsi_debug)} >DATA
+   __stop_gsi_debug = .;
+
+   .tls : {*(.tls)} > DATA
+   BSS  : {*(BSS)}  > DATA
+
+  .bss            : /* copy from /opt/gsi/ubuntu/jammy/x86_64/GNU/arc_gnu_2021.09-release_elf32_le_linux_no_sdata/arc-snps-elf/arc-snps-elf/lib/ldscripts/arcv2elfx.x */
+  {
+    *(.dynbss)
+    *(.bss .bss.* .gnu.linkonce.b.*)
+    *(COMMON)
+    /* Align here to ensure that the .bss section occupies space up to
+       _end.  Align after .bss to ensure correct alignment even if the
+       .bss section disappears because there are no input sections.  */
+    . = ALIGN(32 / 8);
+   _end = .;
+   PROVIDE (end = .);
+  }  > DATA
+
+   .stack : {
+      . = ALIGN(4);
+      PROVIDE (_fstack     = . ); /* require by ccac runtime library libmw.a in function _stkchk */
+      _STACKSIZE = 4096;
+      . = . + _STACKSIZE;
+      PROVIDE (_estack     = (. & -4) ); /* require by ccac runtime library libmw.a in function _stkchk */
+      PROVIDE (__stack_top = (. & -4) ); /* Note: not used - stack is explicit set at: bootstrap.S: mov %sp, __BL_STACK__ */
+      PROVIDE (__end_heap  =  . );       /* Note: not used */
+   } >DATA
+
+}

@@ -161,12 +161,12 @@ static int run_bmatmul_cmd(gdl_context_handle_t ctx_id)
 
     // debug
     // print out 0:10, 1024:1034, 2048:2058, 3072:3082, ...
-    for (uint32_t i = 0; i < 32; ++i) {
-        for (uint32_t j = 0; j < 10; ++j) {
-            printf("debug[%u] = %u\n", i * 1024 + j, debug[i * 1024 + j]);
-        }
-        printf("\n");
-    }
+    // for (uint32_t i = 0; i < 32; ++i) {
+    //     for (uint32_t j = 0; j < 10; ++j) {
+    //         printf("debug[%u] = %u\n", i * 1024 + j, debug[i * 1024 + j]);
+    //     }
+    //     printf("\n");
+    // }
 
     int16_t golden_output[DIM * DIM];
     // binary matmul
