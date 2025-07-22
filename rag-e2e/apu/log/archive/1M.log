@@ -1,0 +1,31 @@
+ARCT[0]: Running KNN cosine distance! 1:49 pm ET, 11/20/2024
+
+TIME STAMP: 11/20/24 20:04:53.304664999 UTC
+
+ARCT[0]: tile_num=8
+
+TIME STAMP: 11/20/24 20:04:53.603830501 UTC
+
+ARCT[0]: ***            total - hits:1       seu:11066256     crun:149514852    iall:39967560      icm:269      dcm:765          microsec@500Mhz:299029
+
+ARCT[0]: ***        l4_l1_dma - hits:128     seu:497162       crun:133901469    iall:28310257      icm:48       dcm:1            microsec@500Mhz:267802
+
+TIME STAMP: 11/20/24 20:04:53.604048273 UTC
+
+ARCT[0]: ***        l4_l3_dma - hits:1       seu:0            crun:10268        iall:1417          icm:14       dcm:0            microsec@500Mhz:20
+
+ARCT[0]: ***        l3_l4_pio - hits:1       seu:0            crun:2353         iall:85            icm:7        dcm:7            microsec@500Mhz:4
+
+ARCT[0]: ***    calc_distance - hits:208     seu:10568208     crun:15349109     iall:11518922      icm:92       dcm:553          microsec@500Mhz:30698
+
+TIME STAMP: 11/20/24 20:04:53.604275185 UTC
+
+ARCT[0]: ***            merge - hits:80      seu:0            crun:129841       iall:88801         icm:12       dcm:16           microsec@500Mhz:259
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x1ad04c40, 0x0) ret = 0
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM

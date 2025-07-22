@@ -1,0 +1,30 @@
+TIME STAMP: 07/22/25 21:06:20.997711236 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:06:20.997895488 UTC
+ARCT[0]: 
+tile_num=1
+TIME STAMP: 07/22/25 21:06:21.018790097 UTC
+ARCT[0]: 
+***            total - hits:1       seu:695542       crun:10345714     iall:4790516       icm:732      dcm:826          microsec@500Mhz:20691
+ARCT[0]: 
+***        l4_l1_dma - hits:8       seu:31104        crun:8559901      iall:3670891       icm:140      dcm:7            microsec@500Mhz:17119
+TIME STAMP: 07/22/25 21:06:21.019002989 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:31614        iall:2539          icm:105      dcm:0            microsec@500Mhz:63
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:7841         iall:594           icm:34       dcm:14           microsec@500Mhz:15
+ARCT[0]: 
+***    calc_distance - hits:18      seu:664438       crun:1555981      iall:1063862       icm:177      dcm:272          microsec@500Mhz:3111
+ARCT[0]: 
+***            merge - hits:10      seu:0            crun:36129        iall:17649         icm:47       dcm:17           microsec@500Mhz:72
+ARCT[0]: 
+ARCT[0]: 
+Done!
+TIME STAMP: 07/22/25 21:06:21.019222112 UTC
+ARCK[0]: 
+After task: 0x505d0c (0xa502e40, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+slot0@localhost:/ > 

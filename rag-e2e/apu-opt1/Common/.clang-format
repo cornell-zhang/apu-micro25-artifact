@@ -1,0 +1,19 @@
+---
+# We'll use defaults from the WebKit style, but with 4 columns of tab indentation.
+BasedOnStyle: WebKit
+IndentWidth: 4
+TabWidth: 4
+UseTab:          Always
+# Location of the "{}" characters
+BraceWrapping:   
+  BeforeElse:      true
+  AfterFunction:   true
+# char *a; and NOT char* a;
+PointerAlignment: Right
+# Do not sort includes by ASCI case
+SortIncludes: false
+# Horizontally aligns arguments after an open bracket.
+AlignAfterOpenBracket: Align
+# insert Braces around if/do/for/etc. (LLVM 15?)
+# InsertBraces: true
+---
