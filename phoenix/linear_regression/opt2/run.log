@@ -1,36 +1,30 @@
-
-ARCK[0]: Running task 0x5010d0 (0x42d11020, 0x0)
-
-TIME STAMP: 06/19/25 19:00:14.334199972 UTC
-
+ARCK[0]: 
+Running task 0x5010d0 (0x42d11020, 0x0)
+TIME STAMP: 07/22/25 20:22:12.324765277 UTC
 ARCT[0]: 
-
-ARCT[0]: Running Pheonix benchmark linear regression! 1:22 pm ET, 11/11/2024
-
-TIME STAMP: 06/19/25 19:00:14.427265343 UTC
-
-ARCT[0]: ***            total - hits:1       seu:1638882      crun:46362179     iall:10580112      icm:173      dcm:16           microsec@500Mhz:92724
-
-TIME STAMP: 06/19/25 19:00:14.427452615 UTC
-
-ARCT[0]: ***              dma - hits:42      seu:163210       crun:43948712     iall:9244521       icm:53       dcm:1            microsec@500Mhz:87897
-
-ARCT[0]: ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-
-ARCT[0]: *** intra_vr_compute - hits:42      seu:566370       crun:893581       iall:350744        icm:64       dcm:9            microsec@500Mhz:1787
-
-TIME STAMP: 06/19/25 19:00:14.427637637 UTC
-
-ARCT[0]: *** inter_vr_compute - hits:42      seu:908683       crun:1490737      iall:972301        icm:36       dcm:5            microsec@500Mhz:2981
-
-ARCT[0]: ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-
 ARCT[0]: 
-
-ARCT[0]: Done!
-
-ARCK[0]: After task: 0x5010d0 (0x42d11020, 0x0) ret = 0
-
-TIME STAMP: 06/19/25 19:00:14.427850849 UTC
-
-ARCK[0]: Send TASK_COMPLETION_DB to ARM
+Running Pheonix benchmark linear regression! 1:22 pm ET, 11/11/2024
+TIME STAMP: 07/22/25 20:22:12.417733517 UTC
+ARCT[0]: 
+***            total - hits:1       seu:1638882      crun:46331464     iall:10588535      icm:170      dcm:16           microsec@500Mhz:92662
+TIME STAMP: 07/22/25 20:22:12.417923018 UTC
+ARCT[0]: 
+***              dma - hits:42      seu:163212       crun:43949847     iall:9252945       icm:50       dcm:1            microsec@500Mhz:87899
+ARCT[0]: 
+***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+TIME STAMP: 07/22/25 20:22:12.418124890 UTC
+ARCT[0]: 
+*** intra_vr_compute - hits:42      seu:566370       crun:894168       iall:350744        icm:64       dcm:9            microsec@500Mhz:1788
+ARCT[0]: 
+*** inter_vr_compute - hits:42      seu:908683       crun:1457863      iall:972301        icm:33       dcm:5            microsec@500Mhz:2915
+ARCT[0]: 
+***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x5010d0 (0x42d11020, 0x0) ret = 0
+TIME STAMP: 07/22/25 20:22:12.418313622 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+slot0@localhost:/ > 

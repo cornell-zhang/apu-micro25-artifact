@@ -1,0 +1,65 @@
+{
+    "hist": {
+        "cpu-seq": 1112,
+        "cpu-mul": 744,
+        "apu-baseline": 3860.7,
+        "apu-opt1": 1713.5,
+        "apu-opt2": 3852.8,
+        "apu-opt3": 3864.1,
+        "apu-optimized": 1644.1
+    },
+    "lreg": {
+        "cpu-seq": 496,
+        "cpu-mul": 104,
+        "apu-baseline": 184.5,
+        "apu-opt1": 184.5,
+        "apu-opt2": 92.7,
+        "apu-opt3": 184.5,
+        "apu-optimized": 92.7
+    },
+    "matmul": {
+        "cpu-seq": 3400,
+        "cpu-mul": 288,
+        "apu-baseline": 474.5,
+        "apu-opt1": 3394.5,
+        "apu-opt2": 454.1,
+        "apu-opt3": 449.6,
+        "apu-optimized": 392.3
+    },
+    "kmeans": {
+        "cpu-seq": 111,
+        "cpu-mul": 109,
+        "apu-baseline": 31.9,
+        "apu-opt1": 1.6,
+        "apu-opt2": 31.9,
+        "apu-opt3": 2.6,
+        "apu-optimized": 1.6
+    },
+    "revidx": {
+        "cpu-seq": 1203,
+        "cpu-mul": 114,
+        "apu-baseline": 2318.8,
+        "apu-opt1": 188.6,
+        "apu-opt2": 1416.5,
+        "apu-opt3": 1416.3,
+        "apu-optimized": 178.1
+    },
+    "strmatch": {
+        "cpu-seq": 11661,
+        "cpu-mul": 406,
+        "apu-baseline": 265.9,
+        "apu-opt1": 183.9,
+        "apu-opt2": 132.4,
+        "apu-opt3": 265.9,
+        "apu-optimized": 90.8
+    },
+    "wrdcnt": {
+        "cpu-seq": 238,
+        "cpu-mul": 38,
+        "apu-baseline": 15.7,
+        "apu-opt1": 3.8,
+        "apu-opt2": 15.6,
+        "apu-opt3": 13.5,
+        "apu-optimized": 3.0
+    }
+}
