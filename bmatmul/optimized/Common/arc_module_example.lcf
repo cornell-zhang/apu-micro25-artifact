@@ -1,0 +1,50 @@
+# LINKER COMMAND FILE EXMPALE:
+#
+# This linker command file example describes how to plant GVML sections in an app.
+# The next sections are related to GVML's code & data.
+#
+# 	(a) valufrag 			- CODE
+# 	(b) valufrag_offset_start	- DATA
+# 	(c) valufrag_offset		- DATA
+# 	(d) valufrag_offset_addr	- DATA
+# 	(e) valufrag_offset_end		- DATA
+# 	(f) valufrag_ins		- DATA
+#
+# Where sections (b)-(e) must be grouped with that specific order.
+# The other sections describe below (which are not the GVML sections) are related
+# to a specific app and can be changed by the user.
+
+MEMORY {
+    CODE:   ORIGIN = 0x00501000, LENGTH = 0x2FF000
+    DATA:   ORIGIN = 0x00800000, LENGTH = 0x700000
+    }
+
+SECTIONS {
+   # All code goes here
+   GROUP: {
+      * (TEXT): {}
+      .ctors?: {}
+      .dtors?: {}
+      valufrag: {}
+   } > CODE
+
+   # All data goes here
+   GROUP: {
+      .pictable? : {}
+      GSI_task_ep_names : {}
+      .rodata? : {}
+      valufrag_offset_start : {}
+      valufrag_offset : {}
+      valufrag_offset_addr : {}
+      valufrag_offset_end : {}
+      valufrag_ins : {}
+      .sdata?: {}
+      .eh_frame.zzzzzzz : {}
+      .sbss?: { * {.sbss} }
+      _SDA_BASE_ = SIZEOF(.sdata) + SIZEOF(.sbss) <= 255 ? ADDR(.sdata) : ADDR(.sdata) + 256;
+      * (DATA): {}
+      * (BSS): {}
+      .stack ALIGN(4) SIZE(DEFINED _STACKSIZE?_STACKSIZE:4096): {}
+#      __BL_STACK__ = ADDR(DATA) + 0xFEE0;
+   } > DATA
+}

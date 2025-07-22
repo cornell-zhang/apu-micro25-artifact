@@ -1,0 +1,27 @@
+ARCK[0]: Running task 0x506338 (0x2f51020, 0x0)
+
+TIME STAMP: 06/18/25 18:33:06.673925982 UTC
+
+ARCT[0]: 
+
+ARCT[0]: Running optimized binary matmul!
+
+TIME STAMP: 06/18/25 18:33:06.686346236 UTC
+
+ARCT[0]: ***            total - hits:1       seu:3991129      crun:6050004      iall:1807008       icm:704      dcm:8306         microsec@500Mhz:12100
+
+TIME STAMP: 06/18/25 18:33:06.686532638 UTC
+
+ARCT[0]: ***           ld_lhs - hits:1       seu:0            crun:71148        iall:31200         icm:90       dcm:11           microsec@500Mhz:142
+
+ARCT[0]: ***           ld_rhs - hits:1       seu:712          crun:223300       iall:126074        icm:178      dcm:23           microsec@500Mhz:446
+
+ARCT[0]: ***            vr_op - hits:32      seu:3987146      crun:5138935      iall:1407314       icm:142      dcm:8213         microsec@500Mhz:10277
+
+TIME STAMP: 06/18/25 18:33:06.686743140 UTC
+
+ARCT[0]: ***               st - hits:32      seu:2912         crun:108562       iall:49668         icm:135      dcm:24           microsec@500Mhz:217
+
+ARCK[0]: After task: 0x506338 (0x2f51020, 0x0) ret = 0
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM
