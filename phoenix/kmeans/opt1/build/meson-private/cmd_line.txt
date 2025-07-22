@@ -1,0 +1,6 @@
+[options]
+buildtype = release
+
+[properties]
+cross_file = ['/home/niansong/micro/apu-micro25-artifact/phoenix/kmeans/opt1/subprojects/gsi-common-meson/cross-files/archs36_l4.txt']
+
