@@ -1,0 +1,32 @@
+MEMORY {
+    CODE:   ORIGIN = 0x00501000, LENGTH = 0x30000
+    DATA:   ORIGIN = 0x00531000, LENGTH = 0x30000
+    }
+
+SECTIONS {
+   # All code goes here
+   GROUP: {
+      * (TEXT): {}
+      .ctors?: {}
+      .dtors?: {}
+      valufrag: {}
+   } > CODE
+
+   # All data goes here
+   GROUP: {
+      .pictable? : {}
+      GSI_task_ep_names : {}
+      .rodata? : {}
+      valufrag_offset : {}
+      valufrag_offset_addr : {}
+      valufrag_ins : {}
+      .sdata?: {}
+      .eh_frame.zzzzzzz : {}
+      .sbss?: { * {.sbss} }
+      _SDA_BASE_ = SIZEOF(.sdata) + SIZEOF(.sbss) <= 255 ? ADDR(.sdata) : ADDR(.sdata) + 256;
+      * (DATA): {}
+      * (BSS): {}
+      .stack ALIGN(4) SIZE(DEFINED _STACKSIZE?_STACKSIZE:4096): {}
+#      __BL_STACK__ = ADDR(DATA) + 0xFEE0;
+   } > DATA
+}

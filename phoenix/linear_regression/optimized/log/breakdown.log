@@ -1,0 +1,29 @@
+ARCT[0]: Running Pheonix benchmark linear regression! 1:22 pm ET, 11/11/2024
+
+TIME STAMP: 11/16/24 20:50:02.476484896 UTC
+
+ARCT[0]: ***            total - hits:1       seu:1638882      crun:46364203     iall:10591363      icm:168      dcm:16           microsec@500Mhz:92728
+
+TIME STAMP: 11/16/24 20:50:02.476671458 UTC
+
+ARCT[0]: ***              dma - hits:42      seu:163210       crun:43953477     iall:9255774       icm:49       dcm:1            microsec@500Mhz:87906
+
+ARCT[0]: ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** intra_vr_compute - hits:42      seu:566370       crun:896047       iall:350744        icm:65       dcm:9            microsec@500Mhz:1792
+
+TIME STAMP: 11/16/24 20:50:02.476856780 UTC
+
+ARCT[0]: *** inter_vr_compute - hits:42      seu:908683       crun:1485979      iall:972302        icm:33       dcm:5            microsec@500Mhz:2971
+
+ARCT[0]: ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x22d11020, 0x0) ret = 0
+
+TIME STAMP: 11/16/24 20:50:02.477041722 UTC
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM

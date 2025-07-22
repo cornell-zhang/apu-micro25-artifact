@@ -1,0 +1,27 @@
+ARCT[0]: Running int16 mamtul Phoenix benchmark, 3:33 pm, 11/23/2024
+
+TIME STAMP: 11/13/24 20:45:58.183924346 UTC
+
+ARCT[0]: ***            total - hits:1       seu:69742768     crun:210628398    iall:111239076     icm:318      dcm:94523        microsec@500Mhz:421256
+
+ARCT[0]: ***         load_LHS - hits:1       seu:0            crun:239810       iall:47530         icm:18       dcm:0            microsec@500Mhz:479
+
+TIME STAMP: 11/13/24 20:45:58.184140199 UTC
+
+ARCT[0]: ***         load_RHS - hits:128     seu:330953       crun:89090328     iall:56668987      icm:52       dcm:1            microsec@500Mhz:178180
+
+ARCT[0]: ***       layout_LHS - hits:32768   seu:3839264      crun:28800425     iall:20061795      icm:45       dcm:94262        microsec@500Mhz:57600
+
+ARCT[0]: ***       layout_RHS - hits:32768   seu:58393528     crun:67683089     iall:17317890      icm:70       dcm:6            microsec@500Mhz:135366
+
+TIME STAMP: 11/13/24 20:45:58.184345621 UTC
+
+ARCT[0]: ***          compute - hits:32768   seu:4718605      crun:9511589      iall:7274498       icm:24       dcm:1            microsec@500Mhz:19023
+
+ARCT[0]: ***     store_result - hits:32      seu:2912         crun:65277        iall:15249         icm:57       dcm:128          microsec@500Mhz:130
+
+ARCK[0]: After task: 0x5010d0 (0x3311020, 0x0) ret = 0
+
+TIME STAMP: 11/13/24 20:45:58.184530222 UTC
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM

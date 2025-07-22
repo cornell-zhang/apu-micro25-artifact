@@ -1,0 +1,40 @@
+#[project options]
+#product-type='wnc-l4'
+
+[binaries]
+c = 'ccac'
+cpp = 'ccac'
+ld='ccac'
+ar = 'arac'
+strip = 'stripac'
+pkgconfig = 'pkg-config' # point to native pkg-config
+
+[properties]
+needs_exe_wrapper = true
+skip_sanity_check = true
+
+[built-in options]
+#c_args = [    '-c',    '-mcpu=33EP64MC203',    '-omf=elf']
+c_args = ['-Hnocopyr',
+          '-Hnosdata',
+          '-Hnocrt',
+          #'-tcf=./../subprojects/gsi-common-meson/common/product/arc.tcf', #in sanity test workdir is <build>/meson-private ... and general build <build>
+
+          '-tcf_apex',
+          '-tcf_core_config',
+          #'-v'
+        ]
+c_link_args = [#'-Hpictable',# can't be here if same cross-config used for applicationa as same as bootloader compilation
+               '-Hnocopyr',
+               '-Hnosdata',
+               '-Wa,-c', '-fno-short-enums',
+               '-tcf_apex',
+               '-tcf_core_config',
+               #'./subprojects/gsi-common-meson/products/wnc-l4/arc_module.lcf'
+              ]
+
+[host_machine]
+system = ''
+cpu_family = 'arc'
+cpu = 'hs36'
+endian = 'little'

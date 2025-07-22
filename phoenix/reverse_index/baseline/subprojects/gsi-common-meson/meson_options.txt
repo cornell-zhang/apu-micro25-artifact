@@ -1,0 +1,2 @@
+option('product-type', type : 'string', value : 'wnc-l4',yield : true, description : 'Product type wnc-l4 / wnc-l3')
+option('system-version', type : 'string', value : '120.12.300.3', yield : true, description : 'GSI system package version')

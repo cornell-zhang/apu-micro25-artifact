@@ -1,0 +1,27 @@
+ARCT[0]: Running Pheonix benchmark historgram! 3:21 pm ET, 11/11/2024
+
+TIME STAMP: 11/11/24 20:58:24.738289617 UTC
+
+ARCT[0]: ***            total - hits:1       seu:110715608    crun:822381121    iall:583250069     icm:156      dcm:7            microsec@500Mhz:1644762
+
+TIME STAMP: 11/11/24 20:58:24.738477879 UTC
+
+ARCT[0]: ***         l4_to_l1 - hits:512     seu:1988612      crun:525037527    iall:337645499     icm:37       dcm:1            microsec@500Mhz:1050075
+
+ARCT[0]: ***        duplicate - hits:196608  seu:3931139      crun:25373369     iall:24772610      icm:23       dcm:2            microsec@500Mhz:50746
+
+ARCT[0]: ***             calc - hits:196608  seu:100663319    crun:215097796    iall:181469186     icm:23       dcm:2            microsec@500Mhz:430195
+
+TIME STAMP: 11/11/24 20:58:24.738664120 UTC
+
+ARCT[0]: ***         l1_to_l4 - hits:1       seu:728          crun:180074       iall:35762         icm:45       dcm:0            microsec@500Mhz:360
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x62d21020, 0x0) ret = 0
+
+TIME STAMP: 11/11/24 20:58:24.738847272 UTC
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM

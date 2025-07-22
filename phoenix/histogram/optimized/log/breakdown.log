@@ -1,0 +1,19 @@
+ARCT[0]: Running Pheonix benchmark historgram! 3:06 pm ET, 11/16/2024
+
+TIME STAMP: 11/16/24 20:31:04.673012437 UTC
+
+ARCT[0]: ***            total - hits:1       seu:110715608    crun:823560938    iall:584061498     icm:157      dcm:7            microsec@500Mhz:1647121
+
+ARCT[0]: ***              dma - hits:513     seu:1988822      crun:526047042    iall:338075922     icm:90       dcm:1            microsec@500Mhz:1052094
+
+ARCT[0]: ***      intra_vr_mv - hits:196608  seu:3932156      crun:25373374     iall:24772611      icm:21       dcm:2            microsec@500Mhz:50746
+
+TIME STAMP: 11/16/24 20:31:04.673207459 UTC
+
+ARCT[0]: *** intra_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** inter_vr_compute - hits:196608  seu:100663309    crun:215099191    iall:181469186     icm:21       dcm:2            microsec@500Mhz:430198
+
+ARCT[0]: ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: 

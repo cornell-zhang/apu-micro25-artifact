@@ -1,0 +1,25 @@
+ARCT[0]: Running Pheonix benchmark string match! 9:30 pm ET, 11/11/2024
+
+TIME STAMP: 11/16/24 22:15:50.218553314 UTC
+
+ARCT[0]: ***            total - hits:1       seu:643104       crun:45394064     iall:10298596      icm:124      dcm:14           microsec@500Mhz:90788
+
+ARCT[0]: ***              dma - hits:42      seu:163132       crun:43948111     iall:9289768       icm:48       dcm:1            microsec@500Mhz:87896
+
+TIME STAMP: 11/16/24 22:15:50.218742356 UTC
+
+ARCT[0]: ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** intra_vr_compute - hits:336     seu:233856       crun:386546       iall:141122        icm:21       dcm:1            microsec@500Mhz:773
+
+ARCT[0]: *** inter_vr_compute - hits:336     seu:245952       crun:946422       iall:795986        icm:27       dcm:8            microsec@500Mhz:1892
+
+TIME STAMP: 11/16/24 22:15:50.218929658 UTC
+
+ARCT[0]: ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x22d11020, 0x0) ret = 0

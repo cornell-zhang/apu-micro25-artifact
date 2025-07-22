@@ -1,0 +1,25 @@
+ARCT[0]: Running Pheonix benchmark word count! 1:01 pm ET, 11/13/2024
+
+TIME STAMP: 11/13/24 18:23:13.000626774 UTC
+
+ARCT[0]: ***            total - hits:1       seu:170523       crun:1588394      iall:640748        icm:140      dcm:8            microsec@500Mhz:3176
+
+ARCT[0]: ***         l4_to_l1 - hits:1       seu:3483         crun:949837       iall:197189        icm:46       dcm:2            microsec@500Mhz:1899
+
+TIME STAMP: 11/13/24 18:23:13.000818056 UTC
+
+ARCT[0]: ***           spread - hits:128     seu:67602        crun:195721       iall:125444        icm:30       dcm:2            microsec@500Mhz:391
+
+ARCT[0]: ***          compare - hits:128     seu:74624        crun:328455       iall:261122        icm:15       dcm:0            microsec@500Mhz:656
+
+ARCT[0]: ***            count - hits:128     seu:22272        crun:46122        iall:18818         icm:18       dcm:1            microsec@500Mhz:92
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+TIME STAMP: 11/13/24 18:23:13.001007498 UTC
+
+ARCK[0]: After task: 0x5010d0 (0x3741020, 0x0) ret = 0
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM

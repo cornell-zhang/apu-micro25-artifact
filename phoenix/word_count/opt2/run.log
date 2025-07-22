@@ -1,0 +1,24 @@
+
+ARCT[0]: Running Pheonix benchmark word count! opt2
+
+TIME STAMP: 06/20/25 19:49:17.220654425 UTC
+
+ARCT[0]: ***            total - hits:1       seu:2456859      crun:7824010      iall:3574806       icm:157      dcm:17           microsec@500Mhz:15648
+
+ARCT[0]: ***              dma - hits:1       seu:3474         crun:951203       iall:197245        icm:53       dcm:1            microsec@500Mhz:1902
+
+TIME STAMP: 06/20/25 19:49:17.220841367 UTC
+
+ARCT[0]: ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** intra_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** inter_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+TIME STAMP: 06/20/25 19:49:17.221027898 UTC
+
+ARCT[0]: 
+
+ARCT[0]: Done!

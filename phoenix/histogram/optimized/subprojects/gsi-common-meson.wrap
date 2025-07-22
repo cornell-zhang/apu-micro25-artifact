@@ -1,0 +1,3 @@
+[wrap-git]
+url = git@bitbucket.org:gsitech/gsi-common-meson.git
+revision = master

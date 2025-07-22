@@ -1,0 +1,1 @@
+.extInstruction md,7,0,FLAGS_NONE,SYNTAX_2OP

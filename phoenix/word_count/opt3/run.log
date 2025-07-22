@@ -1,0 +1,36 @@
+ARCK[0]: DB0: Task address 0x5010d0
+
+ARCK[0]: Running task 0x5010d0 (0x3741020, 0x0)
+
+ARCT[0]: 
+
+ARCT[0]: Running Pheonix benchmark word count! opt3
+
+TIME STAMP: 06/20/25 19:59:05.989080237 UTC
+
+ARCT[0]: ***            total - hits:1       seu:2405376      crun:6728482      iall:3347383       icm:108      dcm:144          microsec@500Mhz:13456
+
+TIME STAMP: 06/20/25 19:59:05.989269539 UTC
+
+ARCT[0]: ***              dma - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** intra_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: *** inter_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+TIME STAMP: 06/20/25 19:59:05.989489111 UTC
+
+ARCT[0]: ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x3741020, 0x0) ret = 0
+
+TIME STAMP: 06/20/25 19:59:05.989673333 UTC
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM
+

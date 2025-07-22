@@ -1,0 +1,11 @@
+[binaries]
+c = '/efs/data/public/petalinux-v2018.1/tools/linux-i386/aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc'
+cpp = '/efs/data/public/petalinux-v2018.1/tools/linux-i386/aarch64-linux-gnu/bin/aarch64-linux-gnu-g++'
+ar = '/efs/data/public/petalinux-v2018.1/tools/linux-i386/aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc-ar'
+strip = '/efs/data/public/petalinux-v2018.1/tools/linux-i386/aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc-strip'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'armv8-a'
+endian = 'little'

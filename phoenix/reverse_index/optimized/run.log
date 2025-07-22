@@ -1,0 +1,27 @@
+ARCT[0]: Running Pheonix benchmark reverse index! 2:28 pm ET, 11/13/2024
+
+TIME STAMP: 11/13/24 20:06:37.591343487 UTC
+
+ARCT[0]: ***            total - hits:1       seu:11031780     crun:91370660     iall:50480194      icm:185      dcm:14           microsec@500Mhz:182741
+
+TIME STAMP: 11/13/24 20:06:37.591530238 UTC
+
+ARCT[0]: ***         l4_to_l1 - hits:21      seu:34000        crun:8816106      iall:1884535       icm:73       dcm:5            microsec@500Mhz:17632
+
+ARCT[0]: ***    reverse_index - hits:20480   seu:9994242      crun:37078178     iall:30351363      icm:30       dcm:4            microsec@500Mhz:74156
+
+ARCT[0]: ***       get_marked - hits:20480   seu:983040       crun:5683092      iall:4751362       icm:33       dcm:3            microsec@500Mhz:11366
+
+TIME STAMP: 11/13/24 20:06:37.591717790 UTC
+
+ARCT[0]: ***         l3_to_l4 - hits:20480   seu:0            crun:30763293     iall:7407333       icm:13       dcm:0            microsec@500Mhz:61526
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x911b020, 0x0) ret = 0
+
+TIME STAMP: 11/13/24 20:06:37.591902912 UTC
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM

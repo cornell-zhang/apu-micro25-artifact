@@ -1,0 +1,25 @@
+ARCT[0]: Running Pheonix benchmark kmeans! 10:11 pm ET, 11/11/2024
+
+TIME STAMP: 11/12/24 03:29:07.780690247 UTC
+
+ARCT[0]: ***            total - hits:1       seu:46641        crun:811526       iall:275141        icm:193      dcm:7            microsec@500Mhz:1623
+
+ARCT[0]: ***         l4_to_l1 - hits:2       seu:3878         crun:579032       iall:134674        icm:64       dcm:2            microsec@500Mhz:1158
+
+ARCT[0]: ***        duplicate - hits:240     seu:6468         crun:37580        iall:30003         icm:21       dcm:3            microsec@500Mhz:75
+
+TIME STAMP: 11/12/24 03:29:07.780926869 UTC
+
+ARCT[0]: ***             calc - hits:241     seu:32141        crun:77185        iall:54040         icm:44       dcm:1            microsec@500Mhz:154
+
+ARCT[0]: ***         l1_to_l4 - hits:1       seu:91           crun:30375        iall:4244          icm:36       dcm:0            microsec@500Mhz:60
+
+ARCT[0]: 
+
+ARCT[0]: Done!
+
+ARCK[0]: After task: 0x5010d0 (0x2ef1020, 0x0) ret = 0
+
+TIME STAMP: 11/12/24 03:29:07.781113271 UTC
+
+ARCK[0]: Send TASK_COMPLETION_DB to ARM
