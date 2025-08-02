@@ -222,6 +222,7 @@ def plot_results(data_dict):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     # Save the plot to output directory
     plt.savefig("e2e_inference_time.pdf", bbox_inches='tight')
+    plt.savefig("e2e_inference_time.png", format="png", dpi=300, bbox_inches='tight')
 
 def main():
     # Step 1: Run all profiling

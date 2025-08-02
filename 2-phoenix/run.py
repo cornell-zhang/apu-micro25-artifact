@@ -178,9 +178,10 @@ def plot(data):
     plt.grid(True, which='major', axis="y", linestyle='--', lw=0.5, c='k', alpha=0.5)
     plt.ylim(0.3, 200)
 
-    # Save as PDF
+    # Save as PDF and PNG
     plt.tight_layout()
     plt.savefig("phoenix-speedup.pdf", format="pdf")
+    plt.savefig("phoenix-speedup.png", format="png", dpi=300, bbox_inches='tight')
     plt.close()
 
 def main():

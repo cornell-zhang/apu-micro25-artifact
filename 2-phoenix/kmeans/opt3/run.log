@@ -1,22 +1,22 @@
-DB0: Task address 0x5010d0
 ARCK[0]: 
 Running task 0x5010d0 (0x2ef1020, 0x0)
+TIME STAMP: 08/02/25 08:43:24.677408890 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running Pheonix benchmark kmeans! 10:11 pm ET, 11/11/2024
-TIME STAMP: 07/22/25 20:21:05.072084805 UTC
+TIME STAMP: 08/02/25 08:43:24.680235838 UTC
 ARCT[0]: 
-***            total - hits:1       seu:204073       crun:1291909      iall:550819        icm:227      dcm:19           microsec@500Mhz:2583
-TIME STAMP: 07/22/25 20:21:05.072267327 UTC
+***            total - hits:1       seu:204073       crun:1291445      iall:550845        icm:224      dcm:19           microsec@500Mhz:2582
+TIME STAMP: 08/02/25 08:43:24.680443830 UTC
 ARCT[0]: 
-***              dma - hits:2       seu:2035         crun:565258       iall:114237        icm:83       dcm:1            microsec@500Mhz:1130
+***              dma - hits:2       seu:2035         crun:564917       iall:114263        icm:81       dcm:1            microsec@500Mhz:1129
 ARCT[0]: 
 ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 *** intra_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-TIME STAMP: 07/22/25 20:21:05.072456989 UTC
+TIME STAMP: 08/02/25 08:43:24.680632042 UTC
 ARCT[0]: 
-*** inter_vr_compute - hits:1       seu:182          crun:2849         iall:518           icm:11       dcm:1            microsec@500Mhz:5
+*** inter_vr_compute - hits:1       seu:182          crun:3577         iall:518           icm:13       dcm:1            microsec@500Mhz:7
 ARCT[0]: 
 ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
@@ -24,7 +24,7 @@ ARCT[0]:
 Done!
 ARCK[0]: 
 After task: 0x5010d0 (0x2ef1020, 0x0) ret = 0
-TIME STAMP: 07/22/25 20:21:05.072645251 UTC
+TIME STAMP: 08/02/25 08:43:24.680817454 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

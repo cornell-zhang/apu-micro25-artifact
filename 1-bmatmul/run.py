@@ -172,6 +172,7 @@ def main():
     # Show and save
     plt.tight_layout()
     plt.savefig("bmatmul.pdf", format="pdf")
+    plt.savefig("bmatmul.png", format="png", dpi=300, bbox_inches='tight')
 
 
 if __name__ == "__main__":

@@ -1,25 +1,25 @@
 Running task 0x504430 (0x98d02e40, 0x0)
+TIME STAMP: 08/02/25 08:49:55.460638781 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running KNN cosine distance! Opt2 10GB
-TIME STAMP: 08/02/25 01:42:37.429328519 UTC
+TIME STAMP: 08/02/25 08:49:55.460823813 UTC
 ARCT[0]: 
 tile_num=25
-TIME STAMP: 08/02/25 01:42:38.346156999 UTC
+TIME STAMP: 08/02/25 08:49:56.379802734 UTC
 ARCT[0]: 
-***            total - hits:1       seu:96166054     crun:458392715    iall:237337166     icm:617      dcm:3938         microsec@500Mhz:916785
+***            total - hits:1       seu:96166054     crun:459423607    iall:237395704     icm:634      dcm:3941         microsec@500Mhz:918847
 ARCT[0]: 
-***        l4_l1_dma - hits:200     seu:777600       crun:213062612    iall:91792973      icm:139      dcm:3            microsec@500Mhz:426125
-TIME STAMP: 08/02/25 01:42:38.346349041 UTC
+***        l4_l1_dma - hits:200     seu:777600       crun:213718241    iall:91851451      icm:148      dcm:3            microsec@500Mhz:427436
+TIME STAMP: 08/02/25 08:49:56.383120278 UTC
 ARCT[0]: 
-***        l4_l3_dma - hits:1       seu:0            crun:33251        iall:2650          icm:104      dcm:36           microsec@500Mhz:66
+***        l4_l3_dma - hits:1       seu:0            crun:33423        iall:2671          icm:104      dcm:36           microsec@500Mhz:66
 ARCT[0]: 
 ***        l3_l4_pio - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 ***    calc_distance - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 ***            merge - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-TIME STAMP: 08/02/25 01:42:38.346567833 UTC
 ARCT[0]: 
 ARCT[0]: 
 Done!

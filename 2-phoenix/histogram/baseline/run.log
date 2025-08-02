@@ -1,30 +1,30 @@
+TIME STAMP: 08/02/25 08:41:44.449480204 UTC
 ARCK[0]: 
 DB0: Task address 0x5010d0
 ARCK[0]: 
 Running task 0x5010d0 (0x62d21020, 0x0)
-TIME STAMP: 07/22/25 20:19:19.351954869 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running Pheonix benchmark historgram!
-TIME STAMP: 07/22/25 20:19:19.352768577 UTC
+TIME STAMP: 08/02/25 08:41:44.450511484 UTC
 ARCT[0]: 
 num_tiles=768
-TIME STAMP: 07/22/25 20:19:23.213103256 UTC
+TIME STAMP: 08/02/25 08:41:48.314071326 UTC
 ARCT[0]: 
-***            total - hits:1       seu:317743964    crun:1930344909   iall:929065013     icm:163      dcm:25175146     microsec@500Mhz:3860689
+***            total - hits:1       seu:317743964    crun:1932071202   iall:929331883     icm:167      dcm:25175147     microsec@500Mhz:3864142
+TIME STAMP: 08/02/25 08:41:48.314262218 UTC
 ARCT[0]: 
-***         l4_to_l3 - hits:768     seu:0            crun:154935613    iall:32271229      icm:12       dcm:3069         microsec@500Mhz:309871
-TIME STAMP: 07/22/25 20:19:23.213291418 UTC
+***         l4_to_l3 - hits:768     seu:0            crun:156661030    iall:32538101      icm:12       dcm:3069         microsec@500Mhz:313322
 ARCT[0]: 
-***             calc - hits:1572864 seu:308282842    crun:1456141071   iall:682622980     icm:29       dcm:25165824     microsec@500Mhz:2912282
+***             calc - hits:1572864 seu:308282853    crun:1456141203   iall:682622982     icm:29       dcm:25165824     microsec@500Mhz:2912282
+TIME STAMP: 08/02/25 08:41:48.314449320 UTC
 ARCT[0]: 
-***         l1_to_l4 - hits:1       seu:81           crun:30912        iall:4316          icm:36       dcm:4            microsec@500Mhz:61
+***         l1_to_l4 - hits:1       seu:81           crun:30356        iall:4316          icm:35       dcm:4            microsec@500Mhz:60
 ARCT[0]: 
 ARCT[0]: 
 Done!
 ARCK[0]: 
 After task: 0x5010d0 (0x62d21020, 0x0) ret = 0
-TIME STAMP: 07/22/25 20:19:23.213475290 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

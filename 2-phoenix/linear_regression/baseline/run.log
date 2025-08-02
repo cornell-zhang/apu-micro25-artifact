@@ -1,22 +1,22 @@
 ARCK[0]: 
 Running task 0x5010d0 (0x82d11020, 0x0)
-TIME STAMP: 07/22/25 20:21:33.284699005 UTC
+TIME STAMP: 08/02/25 08:43:49.567705521 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running Pheonix benchmark linear regression! 1:22 pm ET, 11/11/2024
-TIME STAMP: 07/22/25 20:21:33.469476953 UTC
+TIME STAMP: 08/02/25 08:43:49.752427329 UTC
 ARCT[0]: 
-***            total - hits:1       seu:2380425      crun:92258867     iall:20494331      icm:175      dcm:15           microsec@500Mhz:184517
-TIME STAMP: 07/22/25 20:21:33.469666375 UTC
+***            total - hits:1       seu:2380425      crun:92246274     iall:20488344      icm:175      dcm:15           microsec@500Mhz:184492
+TIME STAMP: 08/02/25 08:43:49.752615071 UTC
 ARCT[0]: 
-***              dma - hits:85      seu:330312       crun:88982270     iall:18768714      icm:54       dcm:1            microsec@500Mhz:177964
+***              dma - hits:85      seu:330310       crun:88976465     iall:18762732      icm:53       dcm:1            microsec@500Mhz:177952
 ARCT[0]: 
 ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-TIME STAMP: 07/22/25 20:21:33.469877477 UTC
 ARCT[0]: 
-*** intra_vr_compute - hits:85      seu:1146225      crun:1781906      iall:709837        icm:63       dcm:10           microsec@500Mhz:3563
+*** intra_vr_compute - hits:85      seu:1146225      crun:1774210      iall:709837        icm:64       dcm:10           microsec@500Mhz:3548
+TIME STAMP: 08/02/25 08:43:49.752800803 UTC
 ARCT[0]: 
-*** inter_vr_compute - hits:85      seu:902700       crun:1448359      iall:990592        icm:37       dcm:3            microsec@500Mhz:2896
+*** inter_vr_compute - hits:85      seu:902700       crun:1448763      iall:990592        icm:37       dcm:3            microsec@500Mhz:2897
 ARCT[0]: 
 ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
@@ -24,7 +24,7 @@ ARCT[0]:
 Done!
 ARCK[0]: 
 After task: 0x5010d0 (0x82d11020, 0x0) ret = 0
-TIME STAMP: 07/22/25 20:21:33.470106330 UTC
+TIME STAMP: 08/02/25 08:43:49.752985544 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

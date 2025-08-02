@@ -225,8 +225,9 @@ print("\nEnergy Efficiency (GPU/APU):")
 print(tabulate(table_data, headers=headers, tablefmt="grid"))
 
 
-# Save as PDF
+# Save as PDF and PNG
 plt.tight_layout()
 plt.savefig("energy_comparison.pdf", format="pdf")
+plt.savefig("energy_comparison.png", format="png", dpi=300, bbox_inches='tight')
 plt.close()
-print("produced energy_comparison.pdf")
+print("produced energy_comparison.pdf and energy_comparison.png")

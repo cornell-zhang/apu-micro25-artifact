@@ -2,11 +2,11 @@
     "hist": {
         "cpu-seq": 1112,
         "cpu-mul": 744,
-        "apu-baseline": 3860.7,
-        "apu-opt1": 1713.5,
-        "apu-opt2": 3852.8,
-        "apu-opt3": 3864.1,
-        "apu-optimized": 1644.1
+        "apu-baseline": 3864.1,
+        "apu-opt1": 1713.1,
+        "apu-opt2": 3854.5,
+        "apu-opt3": 3862.8,
+        "apu-optimized": 1644.7
     },
     "lreg": {
         "cpu-seq": 496,
@@ -23,7 +23,7 @@
         "apu-baseline": 474.5,
         "apu-opt1": 3394.5,
         "apu-opt2": 454.1,
-        "apu-opt3": 449.6,
+        "apu-opt3": 449.5,
         "apu-optimized": 392.3
     },
     "kmeans": {
@@ -38,11 +38,11 @@
     "revidx": {
         "cpu-seq": 1203,
         "cpu-mul": 114,
-        "apu-baseline": 2318.8,
-        "apu-opt1": 188.6,
-        "apu-opt2": 1416.5,
-        "apu-opt3": 1416.3,
-        "apu-optimized": 178.1
+        "apu-baseline": 2319.0,
+        "apu-opt1": 188.7,
+        "apu-opt2": 1417.5,
+        "apu-opt3": 1416.4,
+        "apu-optimized": 178.2
     },
     "strmatch": {
         "cpu-seq": 11661,

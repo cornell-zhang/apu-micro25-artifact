@@ -1,30 +1,30 @@
-TIME STAMP: 08/02/25 01:43:23.076326950 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running KNN cosine distance! 200GB 11/20/2024
-TIME STAMP: 08/02/25 01:43:23.076512442 UTC
+TIME STAMP: 08/02/25 08:50:42.080257800 UTC
 ARCT[0]: 
 tile_num=1
-TIME STAMP: 08/02/25 01:43:23.097391071 UTC
+TIME STAMP: 08/02/25 08:50:42.101111849 UTC
 ARCT[0]: 
-***            total - hits:1       seu:695542       crun:10343034     iall:4789446       icm:735      dcm:828          microsec@500Mhz:20686
+***            total - hits:1       seu:695542       crun:10354902     iall:4792757       icm:748      dcm:833          microsec@500Mhz:20709
 ARCT[0]: 
-***        l4_l1_dma - hits:8       seu:31104        crun:8563908      iall:3669841       icm:144      dcm:7            microsec@500Mhz:17127
-TIME STAMP: 08/02/25 01:43:23.097602963 UTC
+***        l4_l1_dma - hits:8       seu:31104        crun:8567271      iall:3673117       icm:149      dcm:7            microsec@500Mhz:17134
+TIME STAMP: 08/02/25 08:50:42.101298971 UTC
 ARCT[0]: 
-***        l4_l3_dma - hits:1       seu:0            crun:31310        iall:2532          icm:103      dcm:0            microsec@500Mhz:62
+***        l4_l3_dma - hits:1       seu:0            crun:31622        iall:2560          icm:104      dcm:6            microsec@500Mhz:63
 ARCT[0]: 
-***        l3_l4_pio - hits:1       seu:0            crun:8014         iall:594           icm:33       dcm:14           microsec@500Mhz:16
+***        l3_l4_pio - hits:1       seu:0            crun:8038         iall:594           icm:34       dcm:14           microsec@500Mhz:16
 ARCT[0]: 
-***    calc_distance - hits:18      seu:664438       crun:1549615      iall:1063862       icm:179      dcm:272          microsec@500Mhz:3099
+***    calc_distance - hits:18      seu:664438       crun:1557085      iall:1063862       icm:180      dcm:272          microsec@500Mhz:3114
+TIME STAMP: 08/02/25 08:50:42.101483512 UTC
 ARCT[0]: 
-***            merge - hits:10      seu:0            crun:35736        iall:17649         icm:47       dcm:17           microsec@500Mhz:71
+***            merge - hits:10      seu:0            crun:35859        iall:17649         icm:48       dcm:17           microsec@500Mhz:71
 ARCT[0]: 
 ARCT[0]: 
 Done!
-TIME STAMP: 08/02/25 01:43:23.097795925 UTC
 ARCK[0]: 
 After task: 0x505d0c (0xa502e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 08:50:42.101668114 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

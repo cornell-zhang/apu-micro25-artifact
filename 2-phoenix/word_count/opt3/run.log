@@ -1,30 +1,30 @@
-DB0: Task address 0x5010d0
 ARCK[0]: 
 Running task 0x5010d0 (0x3741020, 0x0)
-TIME STAMP: 07/22/25 20:24:56.320807563 UTC
+TIME STAMP: 08/02/25 08:46:56.550816244 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running Pheonix benchmark word count! opt3
-TIME STAMP: 07/22/25 20:24:56.334628581 UTC
+TIME STAMP: 08/02/25 08:46:56.564634832 UTC
 ARCT[0]: 
-***            total - hits:1       seu:2405376      crun:6727556      iall:3347383       icm:107      dcm:144          microsec@500Mhz:13455
+***            total - hits:1       seu:2405376      crun:6728836      iall:3347383       icm:108      dcm:144          microsec@500Mhz:13457
+TIME STAMP: 08/02/25 08:46:56.564820644 UTC
 ARCT[0]: 
 ***              dma - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-TIME STAMP: 07/22/25 20:24:56.334814633 UTC
 ARCT[0]: 
 ***      intra_vr_mv - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 *** intra_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 *** inter_vr_compute - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+TIME STAMP: 08/02/25 08:46:56.565006376 UTC
 ARCT[0]: 
 ***           lookup - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 ARCT[0]: 
 Done!
-TIME STAMP: 07/22/25 20:24:56.335028205 UTC
 ARCK[0]: 
 After task: 0x5010d0 (0x3741020, 0x0) ret = 0
+TIME STAMP: 08/02/25 08:46:56.565189868 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

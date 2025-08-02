@@ -1,19 +1,18 @@
 Running task 0x504430 (0x28502e40, 0x0)
 ARCT[0]: 
-TIME STAMP: 08/02/25 01:42:13.911412533 UTC
 ARCT[0]: 
 Running KNN cosine distance! Opt2 10GB
-TIME STAMP: 08/02/25 01:42:13.911615365 UTC
+TIME STAMP: 08/02/25 08:49:31.909511663 UTC
 ARCT[0]: 
 tile_num=6
-TIME STAMP: 08/02/25 01:42:14.132230692 UTC
+TIME STAMP: 08/02/25 08:49:32.130517794 UTC
 ARCT[0]: 
-***            total - hits:1       seu:23079852     crun:110238055    iall:56965165      icm:593      dcm:1395         microsec@500Mhz:220476
+***            total - hits:1       seu:23079852     crun:110443924    iall:56980608      icm:602      dcm:1395         microsec@500Mhz:220887
 ARCT[0]: 
-***        l4_l1_dma - hits:48      seu:186624       crun:51154193     iall:22025716      icm:132      dcm:3            microsec@500Mhz:102308
+***        l4_l1_dma - hits:48      seu:186624       crun:51299542     iall:22041165      icm:132      dcm:3            microsec@500Mhz:102599
 ARCT[0]: 
-***        l4_l3_dma - hits:1       seu:0            crun:33643        iall:2657          icm:104      dcm:36           microsec@500Mhz:67
-TIME STAMP: 08/02/25 01:42:14.134867738 UTC
+***        l4_l3_dma - hits:1       seu:0            crun:33435        iall:2664          icm:104      dcm:36           microsec@500Mhz:66
+TIME STAMP: 08/02/25 08:49:32.130706916 UTC
 ARCT[0]: 
 ***        l3_l4_pio - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
@@ -25,6 +24,7 @@ ARCT[0]:
 Done!
 ARCK[0]: 
 After task: 0x504430 (0x28502e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 08:49:32.130893747 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

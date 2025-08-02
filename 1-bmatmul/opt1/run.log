@@ -1,25 +1,25 @@
 DB0: Task address 0x503544
 ARCK[0]: 
 Running task 0x503544 (0x2f51020, 0x0)
-TIME STAMP: 07/22/25 22:26:57.953454756 UTC
+TIME STAMP: 08/02/25 08:41:03.347235027 UTC
 ARCT[0]: 
 ARCT[0]: 
 Running scalar-vector binary matmul!
-TIME STAMP: 07/22/25 22:26:58.217009202 UTC
+TIME STAMP: 08/02/25 08:41:03.610795604 UTC
 ARCT[0]: 
-***            total - hits:1       seu:12876850     crun:131566719    iall:66928579      icm:470      dcm:133462       microsec@500Mhz:263133
+***            total - hits:1       seu:12876850     crun:131568575    iall:66928894      icm:472      dcm:133462       microsec@500Mhz:263137
 ARCT[0]: 
-***           ld_lhs - hits:2049    seu:2230450      crun:28772025     iall:16224514      icm:190      dcm:7            microsec@500Mhz:57544
-TIME STAMP: 07/22/25 22:26:58.217198044 UTC
+***           ld_lhs - hits:2049    seu:2230450      crun:28772037     iall:16224675      icm:191      dcm:7            microsec@500Mhz:57544
+TIME STAMP: 08/02/25 08:41:03.610997546 UTC
 ARCT[0]: 
-***           ld_rhs - hits:2048    seu:10520576     crun:96284596     iall:46870538      icm:34       dcm:131073       microsec@500Mhz:192569
+***           ld_rhs - hits:2048    seu:10520576     crun:96285545     iall:46870538      icm:33       dcm:131073       microsec@500Mhz:192571
 ARCT[0]: 
-***            vr_op - hits:2048    seu:100394       crun:1214749      iall:858122        icm:50       dcm:258          microsec@500Mhz:2429
+***            vr_op - hits:2048    seu:100372       crun:1214895      iall:858122        icm:49       dcm:258          microsec@500Mhz:2429
 ARCT[0]: 
-***               st - hits:32      seu:2912         crun:750872       iall:307310        icm:107      dcm:928          microsec@500Mhz:1501
+***               st - hits:32      seu:2912         crun:752587       iall:307471        icm:111      dcm:928          microsec@500Mhz:1505
 ARCK[0]: 
 After task: 0x503544 (0x2f51020, 0x0) ret = 0
-TIME STAMP: 07/22/25 22:26:58.217384356 UTC
+TIME STAMP: 08/02/25 08:41:03.611183307 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 
