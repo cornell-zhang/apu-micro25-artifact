@@ -1,0 +1,25 @@
+DB0: Task address 0x503544
+ARCK[0]: 
+Running task 0x503544 (0x2f51020, 0x0)
+TIME STAMP: 07/22/25 22:26:57.953454756 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running scalar-vector binary matmul!
+TIME STAMP: 07/22/25 22:26:58.217009202 UTC
+ARCT[0]: 
+***            total - hits:1       seu:12876850     crun:131566719    iall:66928579      icm:470      dcm:133462       microsec@500Mhz:263133
+ARCT[0]: 
+***           ld_lhs - hits:2049    seu:2230450      crun:28772025     iall:16224514      icm:190      dcm:7            microsec@500Mhz:57544
+TIME STAMP: 07/22/25 22:26:58.217198044 UTC
+ARCT[0]: 
+***           ld_rhs - hits:2048    seu:10520576     crun:96284596     iall:46870538      icm:34       dcm:131073       microsec@500Mhz:192569
+ARCT[0]: 
+***            vr_op - hits:2048    seu:100394       crun:1214749      iall:858122        icm:50       dcm:258          microsec@500Mhz:2429
+ARCT[0]: 
+***               st - hits:32      seu:2912         crun:750872       iall:307310        icm:107      dcm:928          microsec@500Mhz:1501
+ARCK[0]: 
+After task: 0x503544 (0x2f51020, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:58.217384356 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+slot0@localhost:/ > 
