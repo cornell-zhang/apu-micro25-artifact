@@ -1,22 +1,22 @@
-TIME STAMP: 07/22/25 21:04:41.419552900 UTC
+Running task 0x504430 (0xa502e40, 0x0)
+ARCT[0]: 
 ARCT[0]: 
 Running KNN cosine distance! Opt2 10GB
-TIME STAMP: 07/22/25 21:04:41.419734851 UTC
+TIME STAMP: 08/02/25 01:42:04.838753653 UTC
 ARCT[0]: 
 tile_num=1
-TIME STAMP: 07/22/25 21:04:41.457114715 UTC
+TIME STAMP: 08/02/25 01:42:04.875933465 UTC
 ARCT[0]: 
-***            total - hits:1       seu:3846646      crun:18642808     iall:9505460       icm:594      dcm:733          microsec@500Mhz:37285
-TIME STAMP: 07/22/25 21:04:41.457300417 UTC
+***            total - hits:1       seu:3846646      crun:18512748     iall:9496046       icm:583      dcm:725          microsec@500Mhz:37025
 ARCT[0]: 
-***        l4_l1_dma - hits:8       seu:31104        crun:8586993      iall:3672605       icm:140      dcm:3            microsec@500Mhz:17173
+***        l4_l1_dma - hits:8       seu:31104        crun:8549886      iall:3663218       icm:135      dcm:3            microsec@500Mhz:17099
 ARCT[0]: 
-***        l4_l3_dma - hits:1       seu:0            crun:32683        iall:2552          icm:103      dcm:36           microsec@500Mhz:65
+***        l4_l3_dma - hits:1       seu:0            crun:32231        iall:2538          icm:101      dcm:36           microsec@500Mhz:64
+TIME STAMP: 08/02/25 01:42:04.876122616 UTC
 ARCT[0]: 
 ***        l3_l4_pio - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
 ***    calc_distance - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
-TIME STAMP: 07/22/25 21:04:41.457486839 UTC
 ARCT[0]: 
 ***            merge - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
 ARCT[0]: 
@@ -24,7 +24,7 @@ ARCT[0]:
 Done!
 ARCK[0]: 
 After task: 0x504430 (0xa502e40, 0x0) ret = 0
-TIME STAMP: 07/22/25 21:04:41.457670421 UTC
+TIME STAMP: 08/02/25 01:42:04.876314308 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

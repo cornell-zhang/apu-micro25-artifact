@@ -1,0 +1,96 @@
+root@8152ad59bc94:/workspace/DRAMPower# ./generate_and_run_mem_traces.sh 
+================================================================
+DRAMPOWER MEMORY ANALYSIS FOR LARGE EMBEDDING WORKLOADS
+================================================================
+
+Due to DRAMPower's limitations with large traces, we use small
+representative samples and scale the results to estimate power
+consumption for your 10GB, 50GB, and 200GB corpus workloads.
+
+Generating minimal representative traces...
+Creating 10GB representative trace (1KB sample)...
+Generating DDR4 trace for 1024 bytes...
+Generating trace for 1024 bytes:
+  Total bursts needed: 16
+  Bursts per block: 1
+  Blocks to simulate: 16
+  Reads per block: 1
+  Block spacing factor: 1
+  Bytes per burst: 64
+  Read interval: 6 cycles
+  Time scale: 1.0
+Trace saved to 10GB_trace.csv
+Generated 19 commands
+Simulation time: 312 cycles
+Bytes represented per command: 53.9
+Creating 50GB representative trace (2KB sample)...
+Generating DDR4 trace for 2048 bytes...
+Generating trace for 2048 bytes:
+  Total bursts needed: 32
+  Bursts per block: 1
+  Blocks to simulate: 32
+  Reads per block: 1
+  Block spacing factor: 1
+  Bytes per burst: 64
+  Read interval: 6 cycles
+  Time scale: 1.0
+Trace saved to 50GB_trace.csv
+Generated 35 commands
+Simulation time: 600 cycles
+Bytes represented per command: 58.5
+Creating 200GB representative trace (4KB sample)...
+Generating DDR4 trace for 4096 bytes...
+Generating trace for 4096 bytes:
+  Total bursts needed: 64
+  Bursts per block: 1
+  Blocks to simulate: 64
+  Reads per block: 1
+  Block spacing factor: 1
+  Bytes per burst: 64
+  Read interval: 6 cycles
+  Time scale: 1.0
+Trace saved to 200GB_trace.csv
+Generated 69 commands
+Simulation time: 1199 cycles
+Bytes represented per command: 59.4
+
+Trace files generated:
+-rw-r--r--. 1 root root  623 Aug  2 02:11 10GB_trace.csv
+-rw-r--r--. 1 root root 2.4K Aug  2 02:11 200GB_trace.csv
+-rw-r--r--. 1 root root 1.2K Aug  2 02:11 50GB_trace.csv
+
+Running DRAMPower simulations...
+
+🔋 10GB corpus analysis (120MB embeddings):
+✅ Sample energy: 1.91428165e-08 Joules
+📊 Estimated 10GB energy: 2.352e-03 Joules
+
+🔋 50GB corpus analysis (600MB embeddings):
+✅ Sample energy: 3.705940345384615e-08 Joules
+📊 Estimated 50GB energy: 1.138e-02 Joules
+
+🔋 200GB corpus analysis (2400MB embeddings):
+✅ Sample energy: 7.407597286538462e-08 Joules
+📊 Estimated 200GB energy: 4.551e-02 Joules
+
+================================================================
+SUMMARY: MEMORY POWER ESTIMATES
+================================================================
+
+Corpus Size | Embedding Size | Estimated Memory Power
+------------|----------------|----------------------
+10GB        | 120MB          | See 10GB results above
+50GB        | 600MB          | See 50GB results above
+200GB       | 2400MB         | See 200GB results above
+
+METHODOLOGY:
+- Small representative samples simulated with DRAMPower
+- Results scaled linearly by data size ratio
+- Conservative estimates (actual power may vary)
+
+NOTES:
+- Power scales approximately linearly with data size
+- Real workloads may have better efficiency due to caching
+- These estimates represent pure memory access power only
+================================================================
+root@8152ad59bc94:/workspace/DRAMPower# 

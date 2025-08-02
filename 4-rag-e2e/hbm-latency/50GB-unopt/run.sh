@@ -1,0 +1,1 @@
+ramulator2 -f ./config.yaml

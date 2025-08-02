@@ -10146,4 +10146,1887 @@ After task: 0x505d0c (0x98d02e40, 0x0) ret = 0
 TIME STAMP: 07/22/25 21:04:35.397632781 UTC
 ARCK[0]: 
 Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:40.126547117 UTC
+ARCK[0]: 
+DB0: Task address 0x80508394
+ARCK[0]: 
+Running task 0x508394 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:04:40.126639618 UTC
+ARCK[1]: 
+DB0: Task address 0x80f08394
+TIME STAMP: 07/22/25 21:04:40.126664639 UTC
+ARCK[2]: 
+DB0: Task address 0x81908394
+TIME STAMP: 07/22/25 21:04:40.126688339 UTC
+ARCK[3]: 
+DB0: Task address 0x82308394
+ARCK[3]: 
+Running task 0x2308394 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:04:40.126712399 UTC
+ARCK[1]: 
+Running task 0xf08394 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:04:40.126734369 UTC
+ARCK[2]: 
+Running task 0x1908394 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:04:40.129428776 UTC
+ARCK[0]: 
+After task: 0x508394 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:40.129455797 UTC
+ARCK[1]: 
+After task: 0xf08394 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:40.129478307 UTC
+ARCK[2]: 
+After task: 0x1908394 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:40.129500027 UTC
+ARCK[3]: 
+After task: 0x2308394 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:40.129680479 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:40.129704549 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:40.129726399 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:40.129748149 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:41.419365488 UTC
+ARCK[0]: 
+DB0: Task address 0x504430
+ARCK[0]: 
+Running task 0x504430 (0xa502e40, 0x0)
+ARCT[0]: 
+TIME STAMP: 07/22/25 21:04:41.419552900 UTC
+ARCT[0]: 
+Running KNN cosine distance! Opt2 10GB
+TIME STAMP: 07/22/25 21:04:41.419734851 UTC
+ARCT[0]: 
+tile_num=1
+TIME STAMP: 07/22/25 21:04:41.457114715 UTC
+ARCT[0]: 
+***            total - hits:1       seu:3846646      crun:18642808     iall:9505460       icm:594      dcm:733          microsec@500Mhz:37285
+TIME STAMP: 07/22/25 21:04:41.457300417 UTC
+ARCT[0]: 
+***        l4_l1_dma - hits:8       seu:31104        crun:8586993      iall:3672605       icm:140      dcm:3            microsec@500Mhz:17173
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32683        iall:2552          icm:103      dcm:36           microsec@500Mhz:65
+ARCT[0]: 
+***        l3_l4_pio - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+***    calc_distance - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+TIME STAMP: 07/22/25 21:04:41.457486839 UTC
+ARCT[0]: 
+***            merge - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x504430 (0xa502e40, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:41.457670421 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:45.927046742 UTC
+ARCK[0]: 
+DB0: Task address 0x80508394
+ARCK[0]: 
+Running task 0x508394 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:04:45.927122882 UTC
+ARCK[1]: 
+DB0: Task address 0x80f08394
+ARCK[1]: 
+Running task 0xf08394 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:04:45.927145442 UTC
+ARCK[2]: 
+DB0: Task address 0x81908394
+TIME STAMP: 07/22/25 21:04:45.927165943 UTC
+ARCK[3]: 
+DB0: Task address 0x82308394
+TIME STAMP: 07/22/25 21:04:45.927344234 UTC
+ARCK[2]: 
+Running task 0x1908394 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:04:45.927365965 UTC
+ARCK[3]: 
+Running task 0x2308394 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:04:45.929898200 UTC
+ARCK[0]: 
+After task: 0x508394 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:45.929925200 UTC
+ARCK[1]: 
+After task: 0xf08394 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:45.929976691 UTC
+ARCK[2]: 
+After task: 0x1908394 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:45.929999041 UTC
+ARCK[3]: 
+After task: 0x2308394 (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:45.930019851 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:45.930039861 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:45.930059282 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:53.030990442 UTC
+ARCK[0]: 
+DB0: Task address 0x504430
+ARCK[0]: 
+Running task 0x504430 (0x28502e40, 0x0)
+TIME STAMP: 07/22/25 21:04:53.031185574 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt2 10GB
+TIME STAMP: 07/22/25 21:04:53.031366726 UTC
+ARCT[0]: 
+tile_num=6
+TIME STAMP: 07/22/25 21:04:53.251639289 UTC
+ARCT[0]: 
+***            total - hits:1       seu:23079852     crun:110074740    iall:56951340      icm:609      dcm:1395         microsec@500Mhz:220149
+ARCT[0]: 
+***        l4_l1_dma - hits:48      seu:186624       crun:51171755     iall:22012003      icm:132      dcm:3            microsec@500Mhz:102343
+TIME STAMP: 07/22/25 21:04:53.251850891 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32923        iall:2545          icm:104      dcm:36           microsec@500Mhz:65
+ARCT[0]: 
+***        l3_l4_pio - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+***    calc_distance - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+***            merge - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+TIME STAMP: 07/22/25 21:04:53.252049223 UTC
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x504430 (0x28502e40, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:57.758614806 UTC
+ARCK[0]: 
+DB0: Task address 0x80508394
+ARCK[0]: 
+Running task 0x508394 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:04:57.758687216 UTC
+ARCK[1]: 
+DB0: Task address 0x80f08394
+ARCK[1]: 
+Running task 0xf08394 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:04:57.758709867 UTC
+ARCK[2]: 
+DB0: Task address 0x81908394
+TIME STAMP: 07/22/25 21:04:57.758730507 UTC
+ARCK[3]: 
+DB0: Task address 0x82308394
+TIME STAMP: 07/22/25 21:04:57.758908619 UTC
+ARCK[2]: 
+Running task 0x1908394 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:04:57.758930049 UTC
+ARCK[3]: 
+Running task 0x2308394 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:04:57.761473374 UTC
+ARCK[0]: 
+After task: 0x508394 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:57.761501335 UTC
+ARCK[1]: 
+After task: 0xf08394 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:57.761553375 UTC
+ARCK[2]: 
+After task: 0x1908394 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:57.761574865 UTC
+ARCK[3]: 
+After task: 0x2308394 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:04:57.761752557 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:57.761773987 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:57.761793797 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:04:57.761813218 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:20.318635831 UTC
+ARCK[0]: 
+DB0: Task address 0x504430
+ARCK[0]: 
+Running task 0x504430 (0x98d02e40, 0x0)
+TIME STAMP: 07/22/25 21:05:20.318867463 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt2 10GB
+TIME STAMP: 07/22/25 21:05:20.319050355 UTC
+ARCT[0]: 
+tile_num=25
+TIME STAMP: 07/22/25 21:05:21.239479541 UTC
+ARCT[0]: 
+***            total - hits:1       seu:96166054     crun:460097792    iall:237396489     icm:596      dcm:3940         microsec@500Mhz:920195
+ARCT[0]: 
+***        l4_l1_dma - hits:200     seu:777600       crun:213680237    iall:91852369      icm:132      dcm:3            microsec@500Mhz:427360
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:33127        iall:2538          icm:104      dcm:36           microsec@500Mhz:66
+ARCT[0]: 
+***        l3_l4_pio - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+TIME STAMP: 07/22/25 21:05:21.239678893 UTC
+ARCT[0]: 
+***    calc_distance - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+***            merge - hits:0       seu:0            crun:0            iall:0             icm:0        dcm:0            microsec@500Mhz:0
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x504430 (0x98d02e40, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:21.239916395 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:26.254932423 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c84
+ARCK[0]: 
+Running task 0x509c84 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:05:26.255010984 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c84
+ARCK[1]: 
+Running task 0xf09c84 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:05:26.255033524 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c84
+TIME STAMP: 07/22/25 21:05:26.255054404 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c84
+TIME STAMP: 07/22/25 21:05:26.255231946 UTC
+ARCK[2]: 
+Running task 0x1909c84 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:05:26.255253646 UTC
+ARCK[3]: 
+Running task 0x2309c84 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:05:26.257780262 UTC
+ARCK[0]: 
+After task: 0x509c84 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:26.257807042 UTC
+ARCK[1]: 
+After task: 0xf09c84 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:26.257857563 UTC
+ARCK[2]: 
+After task: 0x1909c84 (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:26.257880873 UTC
+ARCK[3]: 
+After task: 0x2309c84 (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:26.257901373 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:26.257921033 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:27.293949065 UTC
+ARCK[0]: 
+DB0: Task address 0x505d1c
+ARCK[0]: 
+Running task 0x505d1c (0xa502e40, 0x0)
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Unopt 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:05:27.294292728 UTC
+ARCT[0]: 
+tile_num=1
+TIME STAMP: 07/22/25 21:05:27.331583761 UTC
+ARCT[0]: 
+***            total - hits:1       seu:3846646      crun:18577187     iall:9536602       icm:821      dcm:872          microsec@500Mhz:37154
+ARCT[0]: 
+***        l4_l1_dma - hits:8       seu:31104        crun:8565587      iall:3669267       icm:143      dcm:2            microsec@500Mhz:17131
+TIME STAMP: 07/22/25 21:05:27.331771883 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32853        iall:2518          icm:108      dcm:38           microsec@500Mhz:65
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8947         iall:594           icm:35       dcm:13           microsec@500Mhz:17
+ARCT[0]: 
+***    calc_distance - hits:18      seu:3815542      crun:9780335      iall:5811638       icm:252      dcm:385          microsec@500Mhz:19560
+ARCT[0]: 
+***            merge - hits:10      seu:0            crun:35963        iall:17649         icm:47       dcm:16           microsec@500Mhz:71
+TIME STAMP: 07/22/25 21:05:27.331957495 UTC
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d1c (0xa502e40, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:27.332139577 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:31.702394776 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c84
+ARCK[0]: 
+Running task 0x509c84 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:05:31.704781920 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c84
+ARCK[1]: 
+Running task 0xf09c84 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:05:31.704810411 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c84
+ARCK[2]: 
+Running task 0x1909c84 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:05:31.704832031 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c84
+TIME STAMP: 07/22/25 21:05:31.705036293 UTC
+ARCK[3]: 
+Running task 0x2309c84 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:05:31.705059243 UTC
+ARCK[0]: 
+After task: 0x509c84 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:31.705080613 UTC
+ARCK[1]: 
+After task: 0xf09c84 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:31.705100553 UTC
+ARCK[2]: 
+After task: 0x1909c84 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:31.705120124 UTC
+ARCK[3]: 
+After task: 0x2309c84 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:31.705305005 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:31.705329036 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:31.705349286 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:31.705370126 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:37.857349506 UTC
+ARCK[0]: 
+DB0: Task address 0x505d1c
+TIME STAMP: 07/22/25 21:05:37.857541397 UTC
+ARCK[0]: 
+Running task 0x505d1c (0x28502e40, 0x0)
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Unopt 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:05:37.857882561 UTC
+ARCT[0]: 
+tile_num=6
+TIME STAMP: 07/22/25 21:05:38.079081673 UTC
+ARCT[0]: 
+***            total - hits:1       seu:23079852     crun:110558176    iall:57171140      icm:863      dcm:1464         microsec@500Mhz:221116
+ARCT[0]: 
+***        l4_l1_dma - hits:48      seu:186624       crun:51234933     iall:22031070      icm:176      dcm:2            microsec@500Mhz:102469
+TIME STAMP: 07/22/25 21:05:38.079272085 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32241        iall:2518          icm:105      dcm:38           microsec@500Mhz:64
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8732         iall:594           icm:36       dcm:13           microsec@500Mhz:17
+ARCT[0]: 
+***    calc_distance - hits:108     seu:22893228     crun:58778177     iall:34869650      icm:262      dcm:975          microsec@500Mhz:117556
+ARCT[0]: 
+***            merge - hits:60      seu:0            crun:159618       iall:105841        icm:51       dcm:19           microsec@500Mhz:319
+TIME STAMP: 07/22/25 21:05:38.079458627 UTC
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d1c (0x28502e40, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:38.079641249 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:42.641365493 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c84
+ARCK[0]: 
+Running task 0x509c84 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:05:42.641435274 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c84
+ARCK[1]: 
+Running task 0xf09c84 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:05:42.641457984 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c84
+ARCK[2]: 
+Running task 0x1909c84 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:05:42.641479454 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c84
+TIME STAMP: 07/22/25 21:05:42.641658836 UTC
+ARCK[3]: 
+Running task 0x2309c84 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:05:42.644211522 UTC
+ARCK[0]: 
+After task: 0x509c84 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:42.644236522 UTC
+ARCK[1]: 
+After task: 0xf09c84 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:42.644263382 UTC
+ARCK[2]: 
+After task: 0x1909c84 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:42.644283592 UTC
+ARCK[3]: 
+After task: 0x2309c84 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:05:42.644462424 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:42.644487274 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:42.644532425 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:05:42.644553545 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:13.919467833 UTC
+ARCK[0]: 
+DB0: Task address 0x505d1c
+ARCK[0]: 
+Running task 0x505d1c (0x98d02e40, 0x0)
+ARCT[0]: 
+TIME STAMP: 07/22/25 21:06:13.919722395 UTC
+ARCT[0]: 
+Running KNN cosine distance! Unopt 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:06:13.919907127 UTC
+ARCT[0]: 
+tile_num=25
+TIME STAMP: 07/22/25 21:06:14.840590666 UTC
+ARCT[0]: 
+***            total - hits:1       seu:96166054     crun:460294848    iall:238285456     icm:864      dcm:3705         microsec@500Mhz:920589
+ARCT[0]: 
+***        l4_l1_dma - hits:200     seu:777600       crun:213965562    iall:91908911      icm:165      dcm:2            microsec@500Mhz:427931
+TIME STAMP: 07/22/25 21:06:14.840781608 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32249        iall:2567          icm:105      dcm:36           microsec@500Mhz:64
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8956         iall:594           icm:36       dcm:13           microsec@500Mhz:17
+ARCT[0]: 
+***    calc_distance - hits:450     seu:95388454     crun:244598780    iall:145290158     icm:271      dcm:3217         microsec@500Mhz:489197
+ARCT[0]: 
+***            merge - hits:250     seu:0            crun:630936       iall:440961        icm:50       dcm:19           microsec@500Mhz:1261
+ARCT[0]: 
+TIME STAMP: 07/22/25 21:06:14.840969289 UTC
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d1c (0x98d02e40, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:14.841153651 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:19.714335321 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c74
+ARCK[0]: 
+Running task 0x509c74 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:06:19.714425102 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c74
+ARCK[1]: 
+Running task 0xf09c74 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:06:19.714450852 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c74
+ARCK[2]: 
+Running task 0x1909c74 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:06:19.714474092 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c74
+ARCK[3]: 
+Running task 0x2309c74 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:06:19.716553183 UTC
+ARCK[0]: 
+After task: 0x509c74 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:19.716583153 UTC
+ARCK[1]: 
+After task: 0xf09c74 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:19.716605593 UTC
+ARCK[2]: 
+After task: 0x1909c74 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:19.716627304 UTC
+ARCK[3]: 
+After task: 0x2309c74 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:19.716806145 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:19.716832306 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:19.716854976 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:19.716876646 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:20.997520814 UTC
+ARCK[0]: 
+DB0: Task address 0x505d0c
+ARCK[0]: 
+Running task 0x505d0c (0xa502e40, 0x0)
+TIME STAMP: 07/22/25 21:06:20.997711236 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:06:20.997895488 UTC
+ARCT[0]: 
+tile_num=1
+TIME STAMP: 07/22/25 21:06:21.018790097 UTC
+ARCT[0]: 
+***            total - hits:1       seu:695542       crun:10345714     iall:4790516       icm:732      dcm:826          microsec@500Mhz:20691
+ARCT[0]: 
+***        l4_l1_dma - hits:8       seu:31104        crun:8559901      iall:3670891       icm:140      dcm:7            microsec@500Mhz:17119
+TIME STAMP: 07/22/25 21:06:21.019002989 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:31614        iall:2539          icm:105      dcm:0            microsec@500Mhz:63
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:7841         iall:594           icm:34       dcm:14           microsec@500Mhz:15
+ARCT[0]: 
+***    calc_distance - hits:18      seu:664438       crun:1555981      iall:1063862       icm:177      dcm:272          microsec@500Mhz:3111
+ARCT[0]: 
+***            merge - hits:10      seu:0            crun:36129        iall:17649         icm:47       dcm:17           microsec@500Mhz:72
+ARCT[0]: 
+ARCT[0]: 
+Done!
+TIME STAMP: 07/22/25 21:06:21.019222112 UTC
+ARCK[0]: 
+After task: 0x505d0c (0xa502e40, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:25.532183148 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c74
+ARCK[0]: 
+Running task 0x509c74 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:06:25.532253759 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c74
+ARCK[1]: 
+Running task 0xf09c74 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:06:25.532275749 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c74
+TIME STAMP: 07/22/25 21:06:25.532296059 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c74
+TIME STAMP: 07/22/25 21:06:25.532473781 UTC
+ARCK[2]: 
+Running task 0x1909c74 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:06:25.532498511 UTC
+ARCK[3]: 
+Running task 0x2309c74 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:06:25.534390280 UTC
+ARCK[0]: 
+After task: 0x509c74 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:25.534444531 UTC
+ARCK[1]: 
+After task: 0xf09c74 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:25.534465181 UTC
+ARCK[2]: 
+After task: 0x1909c74 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:25.534485111 UTC
+ARCK[3]: 
+After task: 0x2309c74 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:25.534662983 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:25.534684493 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:25.534704223 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:25.534723814 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:32.320707824 UTC
+ARCK[0]: 
+DB0: Task address 0x505d0c
+ARCK[0]: 
+Running task 0x505d0c (0x28502e40, 0x0)
+TIME STAMP: 07/22/25 21:06:32.320945496 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:06:32.321127218 UTC
+ARCT[0]: 
+tile_num=6
+TIME STAMP: 07/22/25 21:06:32.442915466 UTC
+ARCT[0]: 
+***            total - hits:1       seu:4173228      crun:60781272     iall:28691031      icm:748      dcm:1041         microsec@500Mhz:121562
+ARCT[0]: 
+***        l4_l1_dma - hits:48      seu:186624       crun:51238891     iall:22037531      icm:152      dcm:107          microsec@500Mhz:102477
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:31946        iall:2546          icm:102      dcm:0            microsec@500Mhz:63
+TIME STAMP: 07/22/25 21:06:32.443153079 UTC
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8141         iall:594           icm:34       dcm:14           microsec@500Mhz:16
+ARCT[0]: 
+***    calc_distance - hits:108     seu:3986604      crun:9003409      iall:6382994       icm:185      dcm:347          microsec@500Mhz:18006
+ARCT[0]: 
+***            merge - hits:60      seu:0            crun:158263       iall:105841        icm:50       dcm:21           microsec@500Mhz:316
+ARCT[0]: 
+ARCT[0]: 
+Done!
+TIME STAMP: 07/22/25 21:06:32.443396761 UTC
+ARCK[0]: 
+After task: 0x505d0c (0x28502e40, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:36.806426228 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c74
+ARCK[0]: 
+Running task 0x509c74 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:06:36.806496129 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c74
+TIME STAMP: 07/22/25 21:06:36.806518319 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c74
+TIME STAMP: 07/22/25 21:06:36.806539589 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c74
+ARCK[3]: 
+Running task 0x2309c74 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:06:36.806560470 UTC
+ARCK[1]: 
+Running task 0xf09c74 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:06:36.806580350 UTC
+ARCK[2]: 
+Running task 0x1909c74 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:06:36.808698381 UTC
+ARCK[0]: 
+After task: 0x509c74 (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:36.808726341 UTC
+ARCK[1]: 
+After task: 0xf09c74 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:36.808747181 UTC
+ARCK[2]: 
+After task: 0x1909c74 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:36.808767482 UTC
+ARCK[3]: 
+After task: 0x2309c74 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:06:36.808946503 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:36.808968234 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:06:36.808988144 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:07:05.088893787 UTC
+ARCK[0]: 
+DB0: Task address 0x505d0c
+ARCK[0]: 
+Running task 0x505d0c (0x98d02e40, 0x0)
+TIME STAMP: 07/22/25 21:07:05.089149420 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! 200GB 11/20/2024
+TIME STAMP: 07/22/25 21:07:05.089334881 UTC
+ARCT[0]: 
+tile_num=25
+TIME STAMP: 07/22/25 21:07:05.593971039 UTC
+ARCT[0]: 
+***            total - hits:1       seu:17388454     crun:252283332    iall:119425746     icm:766      dcm:1866         microsec@500Mhz:504566
+TIME STAMP: 07/22/25 21:07:05.594162530 UTC
+ARCT[0]: 
+***        l4_l1_dma - hits:200     seu:777600       crun:213267267    iall:91743648      icm:155      dcm:487          microsec@500Mhz:426534
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32430        iall:2553          icm:103      dcm:0            microsec@500Mhz:64
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8142         iall:594           icm:34       dcm:14           microsec@500Mhz:16
+ARCT[0]: 
+***    calc_distance - hits:450     seu:16610854     crun:37299429     iall:26595758      icm:184      dcm:632          microsec@500Mhz:74598
+TIME STAMP: 07/22/25 21:07:05.594351862 UTC
+ARCT[0]: 
+***            merge - hits:250     seu:0            crun:623007       iall:440961        icm:48       dcm:40           microsec@500Mhz:1246
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d0c (0x98d02e40, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:07:05.594537794 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:47.505066265 UTC
+ARCK[0]: 
+DB0: Task address 0x80507404
+ARCK[0]: 
+Running task 0x507404 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:38:47.505169856 UTC
+ARCK[1]: 
+DB0: Task address 0x80f07404
+ARCK[1]: 
+Running task 0xf07404 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:38:47.505195027 UTC
+ARCK[2]: 
+DB0: Task address 0x81907404
+TIME STAMP: 07/22/25 21:38:47.505242827 UTC
+ARCK[3]: 
+DB0: Task address 0x82307404
+TIME STAMP: 07/22/25 21:38:47.505422119 UTC
+ARCK[2]: 
+Running task 0x1907404 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:38:47.505444019 UTC
+ARCK[3]: 
+Running task 0x2307404 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:38:47.507490420 UTC
+ARCK[0]: 
+After task: 0x507404 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:38:47.507514640 UTC
+ARCK[1]: 
+After task: 0xf07404 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:38:47.507535060 UTC
+ARCK[2]: 
+After task: 0x1907404 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:38:47.507555150 UTC
+ARCK[3]: 
+After task: 0x2307404 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:38:47.507732612 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:47.507755542 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:47.507775602 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:47.507795573 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:47.514247887 UTC
+ARCK[0]: 
+DB0: Task address 0x5034bc
+ARCK[0]: 
+Running task 0x5034bc (0x2f41020, 0x0)
+TIME STAMP: 07/22/25 21:38:47.514432849 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running binary matmul!
+TIME STAMP: 07/22/25 21:38:47.741851143 UTC
+ARCT[0]: 
+***            total - hits:1       seu:13151233     crun:113181819    iall:68151847      icm:306      dcm:255168       microsec@500Mhz:226363
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:345088       crun:5870267      iall:1803274       icm:41       dcm:4401         microsec@500Mhz:11740
+TIME STAMP: 07/22/25 21:38:47.742038765 UTC
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:75142        iall:16835         icm:125      dcm:2            microsec@500Mhz:150
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1271808      crun:5110684      iall:2527242       icm:118      dcm:572          microsec@500Mhz:10221
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:98153741     iall:61501450      icm:62       dcm:250184       microsec@500Mhz:196307
+TIME STAMP: 07/22/25 21:38:47.742223697 UTC
+ARCK[0]: 
+After task: 0x5034bc (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:38:47.743658812 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:54.709549381 UTC
+ARCK[0]: 
+DB0: Task address 0x8050747c
+ARCK[0]: 
+Running task 0x50747c (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:38:54.709620372 UTC
+ARCK[1]: 
+DB0: Task address 0x80f0747c
+ARCK[1]: 
+Running task 0xf0747c (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:38:54.709642952 UTC
+ARCK[2]: 
+DB0: Task address 0x8190747c
+TIME STAMP: 07/22/25 21:38:54.709663802 UTC
+ARCK[3]: 
+DB0: Task address 0x8230747c
+TIME STAMP: 07/22/25 21:38:54.709842304 UTC
+ARCK[2]: 
+Running task 0x190747c (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:38:54.709864074 UTC
+ARCK[3]: 
+Running task 0x230747c (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:38:54.711489991 UTC
+ARCK[0]: 
+After task: 0x50747c (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:54.711515181 UTC
+ARCK[1]: 
+After task: 0xf0747c (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:54.711536761 UTC
+ARCK[2]: 
+After task: 0x190747c (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:54.711557081 UTC
+ARCK[3]: 
+After task: 0x230747c (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:38:54.715802204 UTC
+ARCK[0]: 
+DB0: Task address 0x503544
+ARCK[0]: 
+Running task 0x503544 (0x2f51020, 0x0)
+TIME STAMP: 07/22/25 21:38:54.715988306 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running scalar-vector binary matmul!
+TIME STAMP: 07/22/25 21:38:54.979555012 UTC
+ARCT[0]: 
+***            total - hits:1       seu:12876850     crun:131579827    iall:66928705      icm:481      dcm:133462       microsec@500Mhz:263159
+ARCT[0]: 
+***           ld_lhs - hits:2049    seu:2230450      crun:28780319     iall:16224668      icm:189      dcm:7            microsec@500Mhz:57560
+TIME STAMP: 07/22/25 21:38:54.979743584 UTC
+ARCT[0]: 
+***           ld_rhs - hits:2048    seu:10520576     crun:96284741     iall:46870538      icm:34       dcm:131073       microsec@500Mhz:192569
+ARCT[0]: 
+***            vr_op - hits:2048    seu:100383       crun:1215937      iall:858122        icm:57       dcm:258          microsec@500Mhz:2431
+ARCT[0]: 
+***               st - hits:32      seu:2912         crun:751886       iall:307275        icm:110      dcm:928          microsec@500Mhz:1503
+ARCK[0]: 
+After task: 0x503544 (0x2f51020, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:38:54.979930926 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:01.217798304 UTC
+ARCK[0]: 
+DB0: Task address 0x80507444
+TIME STAMP: 07/22/25 21:39:01.217867985 UTC
+ARCK[1]: 
+DB0: Task address 0x80f07444
+TIME STAMP: 07/22/25 21:39:01.217890665 UTC
+ARCK[2]: 
+DB0: Task address 0x81907444
+ARCK[2]: 
+Running task 0x1907444 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:39:01.217911975 UTC
+ARCK[3]: 
+DB0: Task address 0x82307444
+ARCK[3]: 
+Running task 0x2307444 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:39:01.217932835 UTC
+ARCK[0]: 
+Running task 0x507444 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:39:01.217952926 UTC
+ARCK[1]: 
+Running task 0xf07444 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:39:01.220327659 UTC
+ARCK[0]: 
+After task: 0x507444 (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:01.220351690 UTC
+ARCK[1]: 
+After task: 0xf07444 (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:01.220382180 UTC
+ARCK[2]: 
+After task: 0x1907444 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:39:01.220405380 UTC
+ARCK[3]: 
+After task: 0x2307444 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:39:01.220584482 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:01.220606312 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:01.224705213 UTC
+ARCK[0]: 
+DB0: Task address 0x5034fc
+ARCK[0]: 
+Running task 0x5034fc (0x2f41020, 0x0)
+TIME STAMP: 07/22/25 21:39:01.224888635 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running binary matmul, opt2!
+TIME STAMP: 07/22/25 21:39:01.442294019 UTC
+ARCT[0]: 
+***            total - hits:1       seu:14671666     crun:108183247    iall:67398182      icm:335      dcm:266152       microsec@500Mhz:216366
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:2668         crun:1322922      iall:613827        icm:42       dcm:950          microsec@500Mhz:2645
+TIME STAMP: 07/22/25 21:39:01.442534552 UTC
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:74199        iall:16716         icm:122      dcm:3            microsec@500Mhz:148
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1317471      crun:4821331      iall:2527251       icm:109      dcm:1043         microsec@500Mhz:9642
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:95283496     iall:61503498      icm:49       dcm:262867       microsec@500Mhz:190566
+TIME STAMP: 07/22/25 21:39:01.442750574 UTC
+ARCK[0]: 
+After task: 0x5034fc (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:39:01.444030207 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:07.650954926 UTC
+ARCK[0]: 
+DB0: Task address 0x805073f4
+ARCK[0]: 
+Running task 0x5073f4 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:39:07.651025096 UTC
+ARCK[1]: 
+DB0: Task address 0x80f073f4
+ARCK[1]: 
+Running task 0xf073f4 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:39:07.651047526 UTC
+ARCK[2]: 
+DB0: Task address 0x819073f4
+ARCK[2]: 
+Running task 0x19073f4 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:39:07.651068357 UTC
+ARCK[3]: 
+DB0: Task address 0x823073f4
+ARCK[3]: 
+Running task 0x23073f4 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:39:07.653445140 UTC
+ARCK[0]: 
+After task: 0x5073f4 (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:07.653472931 UTC
+ARCK[1]: 
+After task: 0xf073f4 (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:07.653494211 UTC
+ARCK[2]: 
+After task: 0x19073f4 (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:07.653514711 UTC
+ARCK[3]: 
+After task: 0x23073f4 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:39:07.653693383 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:07.657679053 UTC
+ARCK[0]: 
+DB0: Task address 0x5034b0
+ARCK[0]: 
+Running task 0x5034b0 (0x2f41020, 0x0)
+TIME STAMP: 07/22/25 21:39:07.657863765 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running binary matmul!
+TIME STAMP: 07/22/25 21:39:07.872521642 UTC
+ARCT[0]: 
+***            total - hits:1       seu:12978177     crun:106834147    iall:67542539      icm:322      dcm:267087       microsec@500Mhz:213668
+TIME STAMP: 07/22/25 21:39:07.872709273 UTC
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:172032       crun:1784240      iall:1193994       icm:61       dcm:904          microsec@500Mhz:3568
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:72009        iall:16674         icm:115      dcm:3            microsec@500Mhz:144
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1270785      crun:5225211      iall:2527242       icm:119      dcm:1672         microsec@500Mhz:10450
+TIME STAMP: 07/22/25 21:39:07.872895165 UTC
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:95300529     iall:61501450      icm:57       dcm:263732       microsec@500Mhz:190601
+ARCK[0]: 
+After task: 0x5034b0 (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:39:07.874487781 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:14.704962567 UTC
+ARCK[0]: 
+DB0: Task address 0x8050a2fc
+ARCK[0]: 
+Running task 0x50a2fc (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 21:39:14.705036627 UTC
+ARCK[1]: 
+DB0: Task address 0x80f0a2fc
+ARCK[1]: 
+Running task 0xf0a2fc (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 21:39:14.705059228 UTC
+ARCK[2]: 
+DB0: Task address 0x8190a2fc
+ARCK[2]: 
+Running task 0x190a2fc (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 21:39:14.705080548 UTC
+ARCK[3]: 
+DB0: Task address 0x8230a2fc
+ARCK[3]: 
+Running task 0x230a2fc (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 21:39:14.707452652 UTC
+ARCK[0]: 
+After task: 0x50a2fc (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:14.707476182 UTC
+ARCK[1]: 
+After task: 0xf0a2fc (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:14.707521562 UTC
+ARCK[2]: 
+After task: 0x190a2fc (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:14.707543102 UTC
+ARCK[3]: 
+After task: 0x230a2fc (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 21:39:14.711799495 UTC
+ARCK[0]: 
+DB0: Task address 0x506338
+ARCK[0]: 
+Running task 0x506338 (0x2f51020, 0x0)
+TIME STAMP: 07/22/25 21:39:14.711985477 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running optimized binary matmul!
+TIME STAMP: 07/22/25 21:39:14.724533972 UTC
+ARCT[0]: 
+***            total - hits:1       seu:3991129      crun:6058020      iall:1806962       icm:712      dcm:8307         microsec@500Mhz:12116
+ARCT[0]: 
+***           ld_lhs - hits:1       seu:0            crun:70899        iall:30780         icm:91       dcm:13           microsec@500Mhz:141
+TIME STAMP: 07/22/25 21:39:14.724722544 UTC
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:708          crun:224712       iall:126274        icm:181      dcm:21           microsec@500Mhz:449
+ARCT[0]: 
+***            vr_op - hits:32      seu:3987146      crun:5144402      iall:1407314       icm:137      dcm:8213         microsec@500Mhz:10288
+ARCT[0]: 
+***               st - hits:32      seu:2912         crun:110987       iall:49640         icm:142      dcm:27           microsec@500Mhz:221
+ARCK[0]: 
+After task: 0x506338 (0x2f51020, 0x0) ret = 0
+TIME STAMP: 07/22/25 21:39:14.724908256 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:51.223863960 UTC
+ARCK[0]: 
+DB0: Task address 0x80507404
+ARCK[0]: 
+Running task 0x507404 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 22:26:51.223969131 UTC
+ARCK[1]: 
+DB0: Task address 0x80f07404
+ARCK[1]: 
+Running task 0xf07404 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 22:26:51.223994701 UTC
+ARCK[2]: 
+DB0: Task address 0x81907404
+ARCK[2]: 
+Running task 0x1907404 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 22:26:51.224018582 UTC
+ARCK[3]: 
+DB0: Task address 0x82307404
+ARCK[3]: 
+Running task 0x2307404 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 22:26:51.226241864 UTC
+ARCK[0]: 
+After task: 0x507404 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:51.226271634 UTC
+ARCK[1]: 
+After task: 0xf07404 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:51.226294524 UTC
+ARCK[2]: 
+After task: 0x1907404 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:51.226316555 UTC
+ARCK[3]: 
+After task: 0x2307404 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:51.226497396 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:51.226521387 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:51.226543207 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:51.226564387 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:51.230507096 UTC
+ARCK[0]: 
+DB0: Task address 0x5034bc
+ARCK[0]: 
+Running task 0x5034bc (0x2f41020, 0x0)
+ARCT[0]: 
+TIME STAMP: 07/22/25 22:26:51.230694698 UTC
+ARCT[0]: 
+Running binary matmul!
+TIME STAMP: 07/22/25 22:26:51.458050822 UTC
+ARCT[0]: 
+***            total - hits:1       seu:13151233     crun:113164322    iall:68151847      icm:295      dcm:255378       microsec@500Mhz:226328
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:345088       crun:5845488      iall:1803274       icm:41       dcm:4401         microsec@500Mhz:11690
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:74213        iall:16863         icm:123      dcm:2            microsec@500Mhz:148
+TIME STAMP: 07/22/25 22:26:51.458268164 UTC
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1271297      crun:5104169      iall:2527242       icm:116      dcm:572          microsec@500Mhz:10208
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:98167629     iall:61501450      icm:54       dcm:250394       microsec@500Mhz:196335
+TIME STAMP: 07/22/25 22:26:51.458452886 UTC
+ARCK[0]: 
+After task: 0x5034bc (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:51.459887011 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:57.934839460 UTC
+ARCK[0]: 
+DB0: Task address 0x8050747c
+ARCK[0]: 
+Running task 0x50747c (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 22:26:57.934910101 UTC
+ARCK[1]: 
+DB0: Task address 0x80f0747c
+ARCK[1]: 
+Running task 0xf0747c (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 22:26:57.934932541 UTC
+ARCK[2]: 
+DB0: Task address 0x8190747c
+ARCK[2]: 
+Running task 0x190747c (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 22:26:57.934953601 UTC
+ARCK[3]: 
+DB0: Task address 0x8230747c
+ARCK[3]: 
+Running task 0x230747c (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 22:26:57.936618628 UTC
+ARCK[0]: 
+After task: 0x50747c (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:57.936646038 UTC
+ARCK[1]: 
+After task: 0xf0747c (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:57.936667108 UTC
+ARCK[2]: 
+After task: 0x190747c (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:57.936686889 UTC
+ARCK[3]: 
+After task: 0x230747c (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:57.936865240 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:57.936886871 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:57.936907191 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:57.936926741 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:26:57.953268915 UTC
+ARCK[0]: 
+DB0: Task address 0x503544
+ARCK[0]: 
+Running task 0x503544 (0x2f51020, 0x0)
+TIME STAMP: 07/22/25 22:26:57.953454756 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running scalar-vector binary matmul!
+TIME STAMP: 07/22/25 22:26:58.217009202 UTC
+ARCT[0]: 
+***            total - hits:1       seu:12876850     crun:131566719    iall:66928579      icm:470      dcm:133462       microsec@500Mhz:263133
+ARCT[0]: 
+***           ld_lhs - hits:2049    seu:2230450      crun:28772025     iall:16224514      icm:190      dcm:7            microsec@500Mhz:57544
+TIME STAMP: 07/22/25 22:26:58.217198044 UTC
+ARCT[0]: 
+***           ld_rhs - hits:2048    seu:10520576     crun:96284596     iall:46870538      icm:34       dcm:131073       microsec@500Mhz:192569
+ARCT[0]: 
+***            vr_op - hits:2048    seu:100394       crun:1214749      iall:858122        icm:50       dcm:258          microsec@500Mhz:2429
+ARCT[0]: 
+***               st - hits:32      seu:2912         crun:750872       iall:307310        icm:107      dcm:928          microsec@500Mhz:1501
+ARCK[0]: 
+After task: 0x503544 (0x2f51020, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:26:58.217384356 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:04.604291245 UTC
+ARCK[0]: 
+DB0: Task address 0x80507444
+ARCK[0]: 
+Running task 0x507444 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 22:27:04.604366376 UTC
+ARCK[1]: 
+DB0: Task address 0x80f07444
+ARCK[1]: 
+Running task 0xf07444 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 22:27:04.604485607 UTC
+ARCK[2]: 
+DB0: Task address 0x81907444
+ARCK[2]: 
+Running task 0x1907444 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 22:27:04.604533308 UTC
+ARCK[3]: 
+DB0: Task address 0x82307444
+ARCK[3]: 
+Running task 0x2307444 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 22:27:04.606595998 UTC
+ARCK[0]: 
+After task: 0x507444 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:04.606620408 UTC
+ARCK[1]: 
+After task: 0xf07444 (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:04.606641699 UTC
+ARCK[2]: 
+After task: 0x1907444 (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:04.606662079 UTC
+ARCK[3]: 
+After task: 0x2307444 (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:04.606682609 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:04.611093703 UTC
+ARCK[0]: 
+DB0: Task address 0x5034fc
+ARCK[0]: 
+Running task 0x5034fc (0x2f41020, 0x0)
+ARCT[0]: 
+ARCT[0]: 
+Running binary matmul, opt2!
+TIME STAMP: 07/22/25 22:27:04.828564038 UTC
+ARCT[0]: 
+***            total - hits:1       seu:14671666     crun:108187236    iall:67397797      icm:346      dcm:266179       microsec@500Mhz:216374
+TIME STAMP: 07/22/25 22:27:04.828751020 UTC
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:2664         crun:1323161      iall:613463        icm:42       dcm:950          microsec@500Mhz:2646
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:74370        iall:16716         icm:122      dcm:3            microsec@500Mhz:148
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1317514      crun:4825354      iall:2527251       icm:116      dcm:1036         microsec@500Mhz:9650
+TIME STAMP: 07/22/25 22:27:04.828936282 UTC
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:95281923     iall:61503498      icm:54       dcm:262901       microsec@500Mhz:190563
+ARCK[0]: 
+After task: 0x5034fc (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:04.830372786 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:11.554226385 UTC
+ARCK[0]: 
+DB0: Task address 0x805073f4
+ARCK[0]: 
+Running task 0x5073f4 (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 22:27:11.554296766 UTC
+ARCK[1]: 
+DB0: Task address 0x80f073f4
+ARCK[1]: 
+Running task 0xf073f4 (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 22:27:11.554319326 UTC
+ARCK[2]: 
+DB0: Task address 0x819073f4
+TIME STAMP: 07/22/25 22:27:11.554341106 UTC
+ARCK[3]: 
+DB0: Task address 0x823073f4
+ARCK[3]: 
+Running task 0x23073f4 (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 22:27:11.554362097 UTC
+ARCK[2]: 
+Running task 0x19073f4 (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 22:27:11.556778571 UTC
+ARCK[0]: 
+After task: 0x5073f4 (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:11.556805821 UTC
+ARCK[1]: 
+After task: 0xf073f4 (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:11.556827191 UTC
+ARCK[2]: 
+After task: 0x19073f4 (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:11.556847632 UTC
+ARCK[3]: 
+After task: 0x23073f4 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:11.557026663 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:11.563474568 UTC
+ARCK[0]: 
+DB0: Task address 0x5034b0
+TIME STAMP: 07/22/25 22:27:11.563658930 UTC
+ARCK[0]: 
+Running task 0x5034b0 (0x2f41020, 0x0)
+ARCT[0]: 
+ARCT[0]: 
+Running binary matmul!
+TIME STAMP: 07/22/25 22:27:11.778378847 UTC
+ARCT[0]: 
+***            total - hits:1       seu:12978177     crun:106835741    iall:67542539      icm:325      dcm:267073       microsec@500Mhz:213671
+TIME STAMP: 07/22/25 22:27:11.778565809 UTC
+ARCT[0]: 
+***           ld_lhs - hits:1024    seu:172032       crun:1787221      iall:1193994       icm:63       dcm:904          microsec@500Mhz:3574
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:178          crun:73661        iall:16485         icm:123      dcm:3            microsec@500Mhz:147
+ARCT[0]: 
+***            vr_op - hits:2048    seu:1270785      crun:5217206      iall:2527242       icm:118      dcm:1672         microsec@500Mhz:10434
+TIME STAMP: 07/22/25 22:27:11.778750931 UTC
+ARCT[0]: 
+***               st - hits:2048    seu:11534336     crun:95306059     iall:61501450      icm:57       dcm:263718       microsec@500Mhz:190612
+ARCK[0]: 
+After task: 0x5034b0 (0x2f41020, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:11.780343387 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:18.500422228 UTC
+ARCK[0]: 
+DB0: Task address 0x8050a2fc
+ARCK[0]: 
+Running task 0x50a2fc (0x2d01000, 0x0)
+TIME STAMP: 07/22/25 22:27:18.500497789 UTC
+ARCK[1]: 
+DB0: Task address 0x80f0a2fc
+ARCK[1]: 
+Running task 0xf0a2fc (0x2d01058, 0x0)
+TIME STAMP: 07/22/25 22:27:18.500520879 UTC
+ARCK[2]: 
+DB0: Task address 0x8190a2fc
+ARCK[2]: 
+Running task 0x190a2fc (0x2d010b0, 0x0)
+TIME STAMP: 07/22/25 22:27:18.500542049 UTC
+ARCK[3]: 
+DB0: Task address 0x8230a2fc
+ARCK[3]: 
+Running task 0x230a2fc (0x2d01108, 0x0)
+TIME STAMP: 07/22/25 22:27:18.502918763 UTC
+ARCK[0]: 
+After task: 0x50a2fc (0x2d01000, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:18.502942713 UTC
+ARCK[1]: 
+After task: 0xf0a2fc (0x2d01058, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:18.502962794 UTC
+ARCK[2]: 
+After task: 0x190a2fc (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:18.502982654 UTC
+ARCK[3]: 
+After task: 0x230a2fc (0x2d01108, 0x0) ret = 0
+TIME STAMP: 07/22/25 22:27:18.503171396 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:18.503193996 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:18.503214016 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:18.503233296 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 07/22/25 22:27:18.507492219 UTC
+ARCK[0]: 
+DB0: Task address 0x506338
+ARCK[0]: 
+Running task 0x506338 (0x2f51020, 0x0)
+TIME STAMP: 07/22/25 22:27:18.507676551 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running optimized binary matmul!
+TIME STAMP: 07/22/25 22:27:18.520219336 UTC
+ARCT[0]: 
+***            total - hits:1       seu:3991129      crun:6058392      iall:1806609       icm:715      dcm:8304         microsec@500Mhz:12116
+ARCT[0]: 
+***           ld_lhs - hits:1       seu:0            crun:70364        iall:31025         icm:88       dcm:13           microsec@500Mhz:140
+TIME STAMP: 07/22/25 22:27:18.520407738 UTC
+ARCT[0]: 
+***           ld_rhs - hits:1       seu:712          crun:223404       iall:125733        icm:180      dcm:21           microsec@500Mhz:446
+ARCT[0]: 
+***            vr_op - hits:32      seu:3987146      crun:5145119      iall:1407314       icm:138      dcm:8213         microsec@500Mhz:10290
+ARCT[0]: 
+***               st - hits:32      seu:2912         crun:112399       iall:49577         icm:149      dcm:24           microsec@500Mhz:224
+TIME STAMP: 07/22/25 22:27:18.520605780 UTC
+ARCK[0]: 
+After task: 0x506338 (0x2f51020, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:40.455463498 UTC
+ARCK[0]: 
+DB0: Task address 0x80508364
+ARCK[0]: 
+Running task 0x508364 (0x2d01000, 0x0)
+TIME STAMP: 08/02/25 01:40:40.455566469 UTC
+ARCK[1]: 
+DB0: Task address 0x80f08364
+ARCK[1]: 
+Running task 0xf08364 (0x2d01058, 0x0)
+TIME STAMP: 08/02/25 01:40:40.455591369 UTC
+ARCK[2]: 
+DB0: Task address 0x81908364
+TIME STAMP: 08/02/25 01:40:40.455615160 UTC
+ARCK[3]: 
+DB0: Task address 0x82308364
+ARCK[3]: 
+Running task 0x2308364 (0x2d01108, 0x0)
+TIME STAMP: 08/02/25 01:40:40.455637900 UTC
+ARCK[2]: 
+Running task 0x1908364 (0x2d010b0, 0x0)
+TIME STAMP: 08/02/25 01:40:40.458332087 UTC
+ARCK[0]: 
+After task: 0x508364 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:40:40.458359817 UTC
+ARCK[1]: 
+After task: 0xf08364 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:40:40.458382937 UTC
+ARCK[2]: 
+After task: 0x1908364 (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:40.458405708 UTC
+ARCK[3]: 
+After task: 0x2308364 (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:40.458428158 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:40.458449878 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:42.216403190 UTC
+ARCK[0]: 
+DB0: Task address 0x504400
+ARCK[0]: 
+Running task 0x504400 (0xa502e40, 0x0)
+TIME STAMP: 08/02/25 01:40:42.216592942 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt3 200GB
+TIME STAMP: 08/02/25 01:40:42.216776624 UTC
+ARCT[0]: 
+tile_num=1
+TIME STAMP: 08/02/25 01:40:42.255560962 UTC
+ARCT[0]: 
+***            total - hits:1       seu:3892726      crun:19297851     iall:9870209       icm:755      dcm:607          microsec@500Mhz:38595
+ARCT[0]: 
+***        l4_l1_dma - hits:8       seu:31104        crun:8598516      iall:3668133       icm:168      dcm:3            microsec@500Mhz:17197
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:4607         iall:396           icm:22       dcm:4            microsec@500Mhz:9
+TIME STAMP: 08/02/25 01:40:42.255750984 UTC
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:7496         iall:521           icm:29       dcm:16           microsec@500Mhz:14
+ARCT[0]: 
+***    calc_distance - hits:18      seu:3861622      crun:10516434     iall:6151894       icm:287      dcm:277          microsec@500Mhz:21032
+ARCT[0]: 
+***            merge - hits:10      seu:0            crun:35033        iall:18973         icm:40       dcm:7            microsec@500Mhz:70
+ARCT[0]: 
+ARCT[0]: 
+Done!
+TIME STAMP: 08/02/25 01:40:42.255948206 UTC
+ARCK[0]: 
+After task: 0x504400 (0xa502e40, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:46.778195005 UTC
+ARCK[0]: 
+DB0: Task address 0x80508364
+ARCK[0]: 
+Running task 0x508364 (0x2d01000, 0x0)
+TIME STAMP: 08/02/25 01:40:46.778275576 UTC
+ARCK[1]: 
+DB0: Task address 0x80f08364
+ARCK[1]: 
+Running task 0xf08364 (0x2d01058, 0x0)
+TIME STAMP: 08/02/25 01:40:46.778300146 UTC
+ARCK[2]: 
+DB0: Task address 0x81908364
+TIME STAMP: 08/02/25 01:40:46.778323187 UTC
+ARCK[3]: 
+DB0: Task address 0x82308364
+TIME STAMP: 08/02/25 01:40:46.778502728 UTC
+ARCK[2]: 
+Running task 0x1908364 (0x2d010b0, 0x0)
+TIME STAMP: 08/02/25 01:40:46.778526649 UTC
+ARCK[3]: 
+Running task 0x2308364 (0x2d01108, 0x0)
+TIME STAMP: 08/02/25 01:40:46.781129465 UTC
+ARCK[0]: 
+After task: 0x508364 (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:46.781187535 UTC
+ARCK[1]: 
+After task: 0xf08364 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:40:46.781209335 UTC
+ARCK[2]: 
+After task: 0x1908364 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:40:46.781229586 UTC
+ARCK[3]: 
+After task: 0x2308364 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:40:46.781438768 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:46.781461518 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:46.781481748 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:40:55.692661514 UTC
+ARCK[0]: 
+DB0: Task address 0x504400
+ARCK[0]: 
+Running task 0x504400 (0x28502e40, 0x0)
+TIME STAMP: 08/02/25 01:40:55.692855836 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt3 200GB
+TIME STAMP: 08/02/25 01:40:55.693037038 UTC
+ARCT[0]: 
+tile_num=6
+TIME STAMP: 08/02/25 01:40:55.923530613 UTC
+ARCT[0]: 
+***            total - hits:1       seu:23356332     crun:115200738    iall:59199077      icm:789      dcm:730          microsec@500Mhz:230401
+TIME STAMP: 08/02/25 01:40:55.923719425 UTC
+ARCT[0]: 
+***        l4_l1_dma - hits:48      seu:186624       crun:51381503     iall:22037938      icm:169      dcm:13           microsec@500Mhz:102763
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:5392         iall:396           icm:23       dcm:4            microsec@500Mhz:10
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:7500         iall:521           icm:26       dcm:16           microsec@500Mhz:15
+TIME STAMP: 08/02/25 01:40:55.923910067 UTC
+ARCT[0]: 
+***    calc_distance - hits:108     seu:23169708     crun:63345187     iall:36911236      icm:312      dcm:347          microsec@500Mhz:126690
+ARCT[0]: 
+***            merge - hits:60      seu:0            crun:162895       iall:113815        icm:39       dcm:17           microsec@500Mhz:325
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x504400 (0x28502e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:40:55.924118749 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:00.215026185 UTC
+ARCK[0]: 
+DB0: Task address 0x80508364
+ARCK[0]: 
+Running task 0x508364 (0x2d01000, 0x0)
+TIME STAMP: 08/02/25 01:41:00.215097205 UTC
+ARCK[1]: 
+DB0: Task address 0x80f08364
+ARCK[1]: 
+Running task 0xf08364 (0x2d01058, 0x0)
+TIME STAMP: 08/02/25 01:41:00.215119856 UTC
+ARCK[2]: 
+DB0: Task address 0x81908364
+TIME STAMP: 08/02/25 01:41:00.215140226 UTC
+ARCK[3]: 
+DB0: Task address 0x82308364
+TIME STAMP: 08/02/25 01:41:00.215318518 UTC
+ARCK[2]: 
+Running task 0x1908364 (0x2d010b0, 0x0)
+TIME STAMP: 08/02/25 01:41:00.215340188 UTC
+ARCK[3]: 
+Running task 0x2308364 (0x2d01108, 0x0)
+TIME STAMP: 08/02/25 01:41:00.217879903 UTC
+ARCK[0]: 
+After task: 0x508364 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:00.217907073 UTC
+ARCK[1]: 
+After task: 0xf08364 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:00.217928384 UTC
+ARCK[2]: 
+After task: 0x1908364 (0x2d010b0, 0x0) ret = 0
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:00.217949074 UTC
+ARCK[3]: 
+After task: 0x2308364 (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:00.217969524 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:00.217989054 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:19.719898774 UTC
+ARCK[0]: 
+DB0: Task address 0x504400
+ARCK[0]: 
+Running task 0x504400 (0x98d02e40, 0x0)
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt3 200GB
+TIME STAMP: 08/02/25 01:41:19.720324198 UTC
+ARCT[0]: 
+tile_num=25
+TIME STAMP: 08/02/25 01:41:20.679689413 UTC
+ARCT[0]: 
+***            total - hits:1       seu:97318054     crun:479671898    iall:246605960     icm:817      dcm:1167         microsec@500Mhz:959343
+TIME STAMP: 08/02/25 01:41:20.679878865 UTC
+ARCT[0]: 
+***        l4_l1_dma - hits:200     seu:777600       crun:213964081    iall:91800273      icm:204      dcm:51           microsec@500Mhz:427928
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:5268         iall:396           icm:22       dcm:4            microsec@500Mhz:10
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:7436         iall:521           icm:27       dcm:16           microsec@500Mhz:14
+ARCT[0]: 
+***    calc_distance - hits:450     seu:96540454     crun:264120181    iall:153796798     icm:304      dcm:613          microsec@500Mhz:528240
+TIME STAMP: 08/02/25 01:41:20.680065137 UTC
+ARCT[0]: 
+***            merge - hits:250     seu:0            crun:651210       iall:474205        icm:38       dcm:55           microsec@500Mhz:1302
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x504400 (0x98d02e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:20.680248749 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:25.266991693 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c74
+ARCK[0]: 
+Running task 0x509c74 (0x2d01000, 0x0)
+TIME STAMP: 08/02/25 01:41:25.267066944 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c74
+ARCK[1]: 
+Running task 0xf09c74 (0x2d01058, 0x0)
+TIME STAMP: 08/02/25 01:41:25.267089774 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c74
+TIME STAMP: 08/02/25 01:41:25.267110835 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c74
+TIME STAMP: 08/02/25 01:41:25.267289126 UTC
+ARCK[2]: 
+Running task 0x1909c74 (0x2d010b0, 0x0)
+TIME STAMP: 08/02/25 01:41:25.267311287 UTC
+ARCK[3]: 
+Running task 0x2309c74 (0x2d01108, 0x0)
+TIME STAMP: 08/02/25 01:41:25.269258916 UTC
+ARCK[0]: 
+After task: 0x509c74 (0x2d01000, 0x0) ret = 0
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:25.269318067 UTC
+ARCK[1]: 
+After task: 0xf09c74 (0x2d01058, 0x0) ret = 0
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:25.269340997 UTC
+ARCK[2]: 
+After task: 0x1909c74 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:25.269361377 UTC
+ARCK[3]: 
+After task: 0x2309c74 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:25.269539139 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:25.269560759 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:26.245591841 UTC
+ARCK[0]: 
+DB0: Task address 0x505d0c
+ARCK[0]: 
+Running task 0x505d0c (0xa502e40, 0x0)
+TIME STAMP: 08/02/25 01:41:26.245778633 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt1 200GB
+TIME STAMP: 08/02/25 01:41:26.246115476 UTC
+ARCT[0]: 
+tile_num=1
+TIME STAMP: 08/02/25 01:41:26.266839033 UTC
+ARCT[0]: 
+***            total - hits:1       seu:695542       crun:10354885     iall:4793194       icm:748      dcm:829          microsec@500Mhz:20709
+TIME STAMP: 08/02/25 01:41:26.267025615 UTC
+ARCT[0]: 
+***        l4_l1_dma - hits:8       seu:31104        crun:8566276      iall:3669715       icm:150      dcm:7            microsec@500Mhz:17132
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32101        iall:2546          icm:102      dcm:3            microsec@500Mhz:64
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8270         iall:594           icm:34       dcm:14           microsec@500Mhz:16
+TIME STAMP: 08/02/25 01:41:26.267229787 UTC
+ARCT[0]: 
+***    calc_distance - hits:18      seu:664438       crun:1557325      iall:1067702       icm:181      dcm:272          microsec@500Mhz:3114
+ARCT[0]: 
+***            merge - hits:10      seu:0            crun:36058        iall:17649         icm:47       dcm:17           microsec@500Mhz:72
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d0c (0xa502e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:26.267414449 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:30.520331335 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c74
+ARCK[0]: 
+Running task 0x509c74 (0x2d01000, 0x0)
+TIME STAMP: 08/02/25 01:41:30.520421496 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c74
+ARCK[1]: 
+Running task 0xf09c74 (0x2d01058, 0x0)
+TIME STAMP: 08/02/25 01:41:30.520445256 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c74
+TIME STAMP: 08/02/25 01:41:30.520469086 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c74
+TIME STAMP: 08/02/25 01:41:30.520723119 UTC
+ARCK[2]: 
+Running task 0x1909c74 (0x2d010b0, 0x0)
+TIME STAMP: 08/02/25 01:41:30.520745729 UTC
+ARCK[3]: 
+Running task 0x2309c74 (0x2d01108, 0x0)
+TIME STAMP: 08/02/25 01:41:30.522498677 UTC
+ARCK[0]: 
+After task: 0x509c74 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:30.522535417 UTC
+ARCK[1]: 
+After task: 0xf09c74 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:30.522555937 UTC
+ARCK[2]: 
+After task: 0x1909c74 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:30.522576307 UTC
+ARCK[3]: 
+After task: 0x2309c74 (0x2d01108, 0x0) ret = 0
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:30.522596868 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:30.522616608 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:30.522636198 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:35.323649356 UTC
+ARCK[0]: 
+DB0: Task address 0x505d0c
+ARCK[0]: 
+Running task 0x505d0c (0x28502e40, 0x0)
+TIME STAMP: 08/02/25 01:41:35.323838377 UTC
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt1 200GB
+TIME STAMP: 08/02/25 01:41:35.324019409 UTC
+ARCT[0]: 
+tile_num=6
+TIME STAMP: 08/02/25 01:41:35.445809107 UTC
+ARCT[0]: 
+***            total - hits:1       seu:4173228      crun:60794164     iall:28715768      icm:776      dcm:1040         microsec@500Mhz:121588
+ARCT[0]: 
+***        l4_l1_dma - hits:48      seu:186624       crun:51245528     iall:22039274      icm:165      dcm:107          microsec@500Mhz:102491
+TIME STAMP: 08/02/25 01:41:35.445996699 UTC
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32022        iall:2539          icm:103      dcm:0            microsec@500Mhz:64
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8346         iall:594           icm:34       dcm:14           microsec@500Mhz:16
+ARCT[0]: 
+***    calc_distance - hits:108     seu:3986604      crun:9006252      iall:6406034       icm:195      dcm:347          microsec@500Mhz:18012
+TIME STAMP: 08/02/25 01:41:35.446181211 UTC
+ARCT[0]: 
+***            merge - hits:60      seu:0            crun:158550       iall:105841        icm:50       dcm:21           microsec@500Mhz:317
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d0c (0x28502e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:35.446365923 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:39.745045206 UTC
+ARCK[0]: 
+DB0: Task address 0x80509c74
+ARCK[0]: 
+Running task 0x509c74 (0x2d01000, 0x0)
+TIME STAMP: 08/02/25 01:41:39.745116517 UTC
+ARCK[1]: 
+DB0: Task address 0x80f09c74
+ARCK[1]: 
+Running task 0xf09c74 (0x2d01058, 0x0)
+TIME STAMP: 08/02/25 01:41:39.745138967 UTC
+ARCK[2]: 
+DB0: Task address 0x81909c74
+TIME STAMP: 08/02/25 01:41:39.745159258 UTC
+ARCK[3]: 
+DB0: Task address 0x82309c74
+TIME STAMP: 08/02/25 01:41:39.745337309 UTC
+ARCK[2]: 
+Running task 0x1909c74 (0x2d010b0, 0x0)
+TIME STAMP: 08/02/25 01:41:39.745359020 UTC
+ARCK[3]: 
+Running task 0x2309c74 (0x2d01108, 0x0)
+TIME STAMP: 08/02/25 01:41:39.747251009 UTC
+ARCK[0]: 
+After task: 0x509c74 (0x2d01000, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:39.747274989 UTC
+ARCK[1]: 
+After task: 0xf09c74 (0x2d01058, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:39.747295679 UTC
+ARCK[2]: 
+After task: 0x1909c74 (0x2d010b0, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:39.747315669 UTC
+ARCK[3]: 
+After task: 0x2309c74 (0x2d01108, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:39.747493821 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:39.747516711 UTC
+ARCK[1]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:39.747536831 UTC
+ARCK[2]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:39.747556512 UTC
+ARCK[3]: 
+Send TASK_COMPLETION_DB to ARM
+TIME STAMP: 08/02/25 01:41:58.801603602 UTC
+ARCK[0]: 
+DB0: Task address 0x505d0c
+ARCK[0]: 
+Running task 0x505d0c (0x98d02e40, 0x0)
+ARCT[0]: 
+ARCT[0]: 
+Running KNN cosine distance! Opt1 200GB
+TIME STAMP: 08/02/25 01:41:58.801990326 UTC
+ARCT[0]: 
+tile_num=25
+TIME STAMP: 08/02/25 01:41:59.306661763 UTC
+ARCT[0]: 
+***            total - hits:1       seu:17388454     crun:252298176    iall:119524179     icm:777      dcm:1857         microsec@500Mhz:504596
+TIME STAMP: 08/02/25 01:41:59.306852875 UTC
+ARCT[0]: 
+***        l4_l1_dma - hits:200     seu:777600       crun:213275754    iall:91746063      icm:157      dcm:487          microsec@500Mhz:426551
+ARCT[0]: 
+***        l4_l3_dma - hits:1       seu:0            crun:32366        iall:2532          icm:105      dcm:0            microsec@500Mhz:64
+ARCT[0]: 
+***        l3_l4_pio - hits:1       seu:0            crun:8366         iall:594           icm:34       dcm:14           microsec@500Mhz:16
+ARCT[0]: 
+***    calc_distance - hits:450     seu:16610854     crun:37301095     iall:26691758      icm:188      dcm:632          microsec@500Mhz:74602
+TIME STAMP: 08/02/25 01:41:59.307040807 UTC
+ARCT[0]: 
+***            merge - hits:250     seu:0            crun:621384       iall:440961        icm:51       dcm:40           microsec@500Mhz:1242
+ARCT[0]: 
+ARCT[0]: 
+Done!
+ARCK[0]: 
+After task: 0x505d0c (0x98d02e40, 0x0) ret = 0
+TIME STAMP: 08/02/25 01:41:59.307227409 UTC
+ARCK[0]: 
+Send TASK_COMPLETION_DB to ARM
 slot0@localhost:/ > 

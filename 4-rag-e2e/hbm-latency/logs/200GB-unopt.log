@@ -1,0 +1,80 @@
+root@1c8bad3b1a94:/mnt/shared/hbm/200GB-unopt# ./run.sh 
+[Ramulator::LoadStoreTrace] [info] Loading trace file ./l4_to_l1.trace ...
+[Ramulator::LoadStoreTrace] [info] Loaded 6553600 lines.
+Frontend:
+  impl: LoadStoreTrace
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_other_requests: 0
+  total_num_write_requests: 0
+  total_num_read_requests: 6553600
+  memory_system_cycles: 13107141
+  DRAM:
+    impl: HBM2
+  AddrMapper:
+    impl: RoBaRaCoCh
+  Controller:
+    impl: Generic
+    id: Channel 0
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 1
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 2
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 3
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 4
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 5
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 6
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+
+  Controller:
+    impl: Generic
+    id: Channel 7
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+

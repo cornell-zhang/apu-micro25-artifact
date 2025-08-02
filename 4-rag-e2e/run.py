@@ -132,9 +132,9 @@ data_dict = {
       "200GB": {"Generation": 0.5458, "Retrieval": 0.0183},
    },
    "apu-no-opt": {
-      "10GB": {"Generation": 0.5449, "Retrieval": 0.01979640956},
-      "50GB": {"Generation": 0.5440, "Retrieval": 0.117563048},
-      "200GB": {"Generation": 0.5446, "Retrieval": 0.490664192},
+      "10GB": {"Generation": 0.5449, "Retrieval": 0},
+      "50GB": {"Generation": 0.5440, "Retrieval": 0},
+      "200GB": {"Generation": 0.5446, "Retrieval": 0},
    }, 
    "apu-opt1": {
       "10GB": {"Generation": 0.5449, "Retrieval": 0},
@@ -152,9 +152,9 @@ data_dict = {
       "200GB": {"Generation": 0.5446, "Retrieval": 0},
    }, 
    "apu-all-opt": {
-      "10GB": {"Generation": 0.5398, "Retrieval": 0.003248307163},
-      "50GB": {"Generation": 0.5420, "Retrieval": 0.01832353596},
-      "200GB": {"Generation": 0.5419, "Retrieval": 0.07594714396},
+      "10GB": {"Generation": 0.5398, "Retrieval": 0},
+      "50GB": {"Generation": 0.5420, "Retrieval": 0},
+      "200GB": {"Generation": 0.5419, "Retrieval": 0},
    },
 }
 
@@ -225,7 +225,7 @@ def plot_results(data_dict):
 
 def main():
     # Step 1: Run all profiling
-    # run_all_profiling()
+    run_all_profiling()
 
     # Step 2: Parse all run.log files
     # update data

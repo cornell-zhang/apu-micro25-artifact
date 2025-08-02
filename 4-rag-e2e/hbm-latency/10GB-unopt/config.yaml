@@ -1,0 +1,32 @@
+Frontend:
+  impl: LoadStoreTrace
+  path: ./l4_to_l1.trace
+  clock_ratio: 1
+
+  Translation:
+    impl: NoTranslation
+    max_addr: 2147483648
+              
+
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: HBM2
+    org:
+      preset: HBM2_8Gb
+      channel: 8
+      rank: 2
+    timing:
+      preset: HBM2_2Gbps
+
+  Controller:
+    impl: Generic
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    plugins:
+
+  AddrMapper:
+    impl: RoBaRaCoCh
