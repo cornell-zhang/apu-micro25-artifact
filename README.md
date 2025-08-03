@@ -13,6 +13,11 @@ This artifact contains GSI APU programs, profiling results, HBM simulation trace
 - RAG energy analysis (Fig.15)
 - RAG latency breakdown (Table8)
 
+## 🔐 How to Access
+
+> [!NOTE]  
+> This section is specifically for the artifact evaluation process. While the artifact is publicly available, the experiments require access to a specialized APU accelerator. We provide access to our research server via JupyterHub at [zhang-capra-xcel.ece.cornell.edu](http://zhang-capra-xcel.ece.cornell.edu). For login credentials, the artifact evaluator should contact the authors. Access is restricted and valid only during the artifact evaluation period.
+
 ## 🎥 Demo Video
 
 📺 **[Step-by-Step Demo - Reproducing Results with this Artifact](https://youtu.be/A_By1ShFXbc)**
