@@ -1,6 +1,6 @@
 # Characterizing and Optimizing Realistic Workloads on a Commercial Compute-in-SRAM Device - MICRO'25 Artifact
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1024372006.svg)](https://doi.org/10.5281/zenodo.16730561)
 
 ## Abstract
 
