@@ -1,8 +1,6 @@
-# Research Artifact - MICRO'25
+# Characterizing and Optimizing Realistic Workloads on a Commercial Compute-in-SRAM Device - MICRO'25 Artifact
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
-**Paper:** Characterizing and Optimizing Realistic Workloads on a Commercial Compute-in-SRAM Device
 
 ## Abstract
 
@@ -214,6 +212,30 @@ After running all experiments, you should see the following generated files:
 - `2-phoenix/ablation.json` - Detailed Phoenix performance data
 - `4-rag-e2e/e2e_inference_time.png` - RAG end-to-end inference time comparison
 - `5-rag-energy/energy_comparison.png` - RAG energy consumption analysis
+
+## 📊 Generated Figures
+
+The following figures are generated when running the experiments:
+
+### Figure 12: Binary Matrix Multiplication Performance Breakdown
+![Binary Matrix Multiplication](1-bmatmul/bmatmul.png)
+
+*Performance breakdown of binary matrix multiplication across different optimization levels on the APU architecture. Shows execution time distribution across loading, computation, and storage operations.*
+
+### Figure 13: Phoenix Benchmark Speedup Comparison
+![Phoenix Benchmark Speedup](2-phoenix/phoenix-speedup.png)
+
+*Speedup comparison across seven Phoenix benchmarks (Histogram, Linear Regression, Matrix Multiply, K-means, Reverse Index, String Match, Word Count) for different platforms including CPU, GPU, and APU configurations.*
+
+### Figure 14: RAG End-to-End Inference Time
+![RAG End-to-End Inference](4-rag-e2e/e2e_inference_time.png)
+
+*End-to-end inference time analysis for Retrieval-Augmented Generation workloads across different platforms and corpus sizes (10GB, 50GB, 200GB).*
+
+### Figure 15: RAG Energy Consumption Analysis
+![RAG Energy Analysis](5-rag-energy/energy_comparison.png)
+
+*Energy consumption comparison between GPU and compute-in-SRAM (APU) approaches for RAG workloads, showing energy breakdown across different system components.*
 
 ## 🔧 Troubleshooting
 
